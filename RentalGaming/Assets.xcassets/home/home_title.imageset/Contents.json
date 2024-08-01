@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "一圆租玩，机器租赁.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "一圆租玩，机器租赁@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "一圆租玩，机器租赁@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

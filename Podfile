@@ -9,6 +9,7 @@ target 'RentalGaming' do
 #  pod 'TMUIComponents', :git => 'https://github.com/chengzongxin/TMUIComponents.git'
   pod 'LookinServer', :configurations => ['Debug']
   pod 'ReactiveObjC'
+  pod 'Masonry'
 
   # Pods for RentalGaming
 
