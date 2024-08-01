@@ -1,0 +1,33 @@
+# 忽略所有 .a 和 .framework 文件
+*.a
+*.framework
+
+# 忽略 Xcode 的构建文件夹
+Build/
+
+# 忽略 Xcode 的项目文件
+.xcworkspace/
+
+# 忽略用户设置
+.xcuserstate/
+
+# 忽略编译产物
+DerivedData/
+Pods/
+*.app
+
+# 忽略临时文件
+*.pbxuser
+!default.pbxuser
+*.mode*
+*.perspectivev3
+
+# 忽略其他杂项
+*.xccheckout
+*.xcschemes
+*.xcsearch
+*.xcuserdata
+*.xclog
+*.xcactivitylog
+*.xcdevicestate
+*.xcbuildstate

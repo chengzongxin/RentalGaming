@@ -1,0 +1,50 @@
+PODS:
+  - LookinServer (1.2.8):
+    - LookinServer/Core (= 1.2.8)
+  - LookinServer/Core (1.2.8)
+  - ReactiveObjC (3.1.1)
+  - TMUICore (2.0.8)
+  - TMUIExtensions (2.0.6):
+    - TMUICore
+    - TMUIExtensions/Foundation (= 2.0.6)
+    - TMUIExtensions/UIKit (= 2.0.6)
+  - TMUIExtensions/Foundation (2.0.6):
+    - TMUICore
+  - TMUIExtensions/UIKit (2.0.6):
+    - TMUICore
+    - TMUIExtensions/Foundation
+
+DEPENDENCIES:
+  - LookinServer
+  - ReactiveObjC
+  - TMUICore (from `https://github.com/chengzongxin/TMUICore.git`)
+  - TMUIExtensions (from `https://github.com/chengzongxin/TMUIExtensions.git`)
+
+SPEC REPOS:
+  trunk:
+    - LookinServer
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  TMUICore:
+    :git: https://github.com/chengzongxin/TMUICore.git
+  TMUIExtensions:
+    :git: https://github.com/chengzongxin/TMUIExtensions.git
+
+CHECKOUT OPTIONS:
+  TMUICore:
+    :commit: bdd13b1f20388360b354c897d920a0a2b9e5ccd2
+    :git: https://github.com/chengzongxin/TMUICore.git
+  TMUIExtensions:
+    :commit: 496a08981c2b72439903fef89cbdc1c28954a58d
+    :git: https://github.com/chengzongxin/TMUIExtensions.git
+
+SPEC CHECKSUMS:
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  TMUICore: a2139700c097b215cff249934dc3ab7a86418d07
+  TMUIExtensions: f814dcdcc5030825e0e9f48bf0087db9b5939925
+
+PODFILE CHECKSUM: e6e5121d0fa004f7afe57aa9d1fe0b621de996ea
+
+COCOAPODS: 1.15.2
