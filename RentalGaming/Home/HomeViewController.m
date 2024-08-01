@@ -127,6 +127,7 @@
         return cell;
     } else {
         HomeRecommendCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(HomeRecommendCell.class) forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     }
     return UITableViewCell.new;

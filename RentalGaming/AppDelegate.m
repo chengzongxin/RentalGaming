@@ -18,6 +18,7 @@
     // Override point for customization after application launch.
     
     [[UITabBar appearance] setTintColor:nil];
+//    TMUIConfiguration.sharedInstance.yellowColor = UIColorHexString(@"#FFFDEB");
     
     return YES;
 }
