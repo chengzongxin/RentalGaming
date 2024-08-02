@@ -6,10 +6,11 @@ target 'RentalGaming' do
   # use_frameworks!
   pod 'TMUICore', :git => 'https://github.com/chengzongxin/TMUICore.git'
   pod 'TMUIExtensions', :git => 'https://github.com/chengzongxin/TMUIExtensions.git'
-#  pod 'TMUIComponents', :git => 'https://github.com/chengzongxin/TMUIComponents.git'
+  pod 'TMUIComponents', :git => 'https://github.com/chengzongxin/TMUIComponents.git'
   pod 'LookinServer', :configurations => ['Debug']
   pod 'ReactiveObjC'
   pod 'Masonry'
+  pod 'fishhook'
 
   # Pods for RentalGaming
 

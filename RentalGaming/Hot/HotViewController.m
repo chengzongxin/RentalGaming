@@ -22,6 +22,11 @@
     [self reloadData];
     
     self.slideBar.backgroundColor = UIColorHexString(@"#FFFDEB");
+    [self.slideBar tmui_cornerDirect:UIRectCornerTopLeft|UIRectCornerTopRight radius:12];
+}
+
+- (UIColor *)contentViewBackgroundColor {
+    return [UIColor clearColor];
 }
 
 - (NSArray<UIViewController *> *)viewControllersForChildViewControllers {

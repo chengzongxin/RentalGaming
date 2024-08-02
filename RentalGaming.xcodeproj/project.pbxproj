@@ -26,15 +26,16 @@
 		8FBFB6EB2C5A60B70042FA0A /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB6EA2C5A60B70042FA0A /* TabBarViewController.m */; };
 		8FBFB6FA2C5BC33D0042FA0A /* HomeRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB6F92C5BC33D0042FA0A /* HomeRecommendCell.m */; };
 		8FBFB6FD2C5BC34C0042FA0A /* HomeCustomizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB6FC2C5BC34C0042FA0A /* HomeCustomizeCell.m */; };
-		8FBFB7082C5BF4010042FA0A /* TMUIPageContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7002C5BF4010042FA0A /* TMUIPageContentScrollView.m */; };
-		8FBFB7092C5BF4010042FA0A /* TMUIPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7022C5BF4010042FA0A /* TMUIPageViewController.m */; };
-		8FBFB70A2C5BF4010042FA0A /* TMUIPageWrapperScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7042C5BF4010042FA0A /* TMUIPageWrapperScrollView.m */; };
-		8FBFB70B2C5BF4010042FA0A /* TMUISegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7062C5BF4010042FA0A /* TMUISegmentControl.m */; };
 		8FBFB70E2C5BF7850042FA0A /* HotItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB70D2C5BF7850042FA0A /* HotItemViewController.m */; };
 		8FBFB7112C5BFF210042FA0A /* HomeCustomizeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7102C5BFF210042FA0A /* HomeCustomizeItemCell.m */; };
 		8FBFB7152C5C001A0042FA0A /* HotItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7142C5C001A0042FA0A /* HotItemCell.m */; };
 		8FBFB7192C5CAB100042FA0A /* CartItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7182C5CAB100042FA0A /* CartItemCell.m */; };
 		8FBFB71C2C5CDF0B0042FA0A /* CartToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB71B2C5CDF0B0042FA0A /* CartToolBar.m */; };
+		8FBFB7212C5CFA720042FA0A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB71F2C5CFA720042FA0A /* LoginViewController.m */; };
+		8FBFB7222C5CFA720042FA0A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFB7202C5CFA720042FA0A /* LoginViewController.xib */; };
+		8FBFB76B2C5D277B0042FA0A /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB76A2C5D277B0042FA0A /* LoginTextField.m */; };
+		8FBFB7742C5D38CA0042FA0A /* ImageHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7722C5D38CA0042FA0A /* ImageHook.m */; };
+		8FBFB7772C5D452C0042FA0A /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7762C5D452C0042FA0A /* RegistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,14 +92,6 @@
 		8FBFB6F92C5BC33D0042FA0A /* HomeRecommendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeRecommendCell.m; sourceTree = "<group>"; };
 		8FBFB6FB2C5BC34C0042FA0A /* HomeCustomizeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCustomizeCell.h; sourceTree = "<group>"; };
 		8FBFB6FC2C5BC34C0042FA0A /* HomeCustomizeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCustomizeCell.m; sourceTree = "<group>"; };
-		8FBFB6FF2C5BF4010042FA0A /* TMUIPageContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMUIPageContentScrollView.h; sourceTree = "<group>"; };
-		8FBFB7002C5BF4010042FA0A /* TMUIPageContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMUIPageContentScrollView.m; sourceTree = "<group>"; };
-		8FBFB7012C5BF4010042FA0A /* TMUIPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMUIPageViewController.h; sourceTree = "<group>"; };
-		8FBFB7022C5BF4010042FA0A /* TMUIPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMUIPageViewController.m; sourceTree = "<group>"; };
-		8FBFB7032C5BF4010042FA0A /* TMUIPageWrapperScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMUIPageWrapperScrollView.h; sourceTree = "<group>"; };
-		8FBFB7042C5BF4010042FA0A /* TMUIPageWrapperScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMUIPageWrapperScrollView.m; sourceTree = "<group>"; };
-		8FBFB7052C5BF4010042FA0A /* TMUISegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMUISegmentControl.h; sourceTree = "<group>"; };
-		8FBFB7062C5BF4010042FA0A /* TMUISegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMUISegmentControl.m; sourceTree = "<group>"; };
 		8FBFB70C2C5BF7850042FA0A /* HotItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotItemViewController.h; sourceTree = "<group>"; };
 		8FBFB70D2C5BF7850042FA0A /* HotItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotItemViewController.m; sourceTree = "<group>"; };
 		8FBFB70F2C5BFF210042FA0A /* HomeCustomizeItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCustomizeItemCell.h; sourceTree = "<group>"; };
@@ -109,6 +102,15 @@
 		8FBFB7182C5CAB100042FA0A /* CartItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartItemCell.m; sourceTree = "<group>"; };
 		8FBFB71A2C5CDF0B0042FA0A /* CartToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartToolBar.h; sourceTree = "<group>"; };
 		8FBFB71B2C5CDF0B0042FA0A /* CartToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartToolBar.m; sourceTree = "<group>"; };
+		8FBFB71E2C5CFA720042FA0A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8FBFB71F2C5CFA720042FA0A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8FBFB7202C5CFA720042FA0A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8FBFB7692C5D277B0042FA0A /* LoginTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
+		8FBFB76A2C5D277B0042FA0A /* LoginTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTextField.m; sourceTree = "<group>"; };
+		8FBFB7722C5D38CA0042FA0A /* ImageHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHook.m; sourceTree = "<group>"; };
+		8FBFB7732C5D38CA0042FA0A /* ImageHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHook.h; sourceTree = "<group>"; };
+		8FBFB7752C5D452C0042FA0A /* RegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		8FBFB7762C5D452C0042FA0A /* RegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
 		9684C34F95D748B02D0C8AF9 /* Pods-RentalGamingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGamingTests.release.xcconfig"; path = "Target Support Files/Pods-RentalGamingTests/Pods-RentalGamingTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC03783FAD5FC34F6CAEE9D8 /* Pods-RentalGaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGaming.release.xcconfig"; path = "Target Support Files/Pods-RentalGaming/Pods-RentalGaming.release.xcconfig"; sourceTree = "<group>"; };
 		B6403305375C022CFD1525B2 /* libPods-RentalGaming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RentalGaming.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +187,7 @@
 				8F7BC7402C5A3A8A00237A52 /* SceneDelegate.h */,
 				8F7BC7412C5A3A8A00237A52 /* SceneDelegate.m */,
 				8FBFB6ED2C5A63B00042FA0A /* PrefixHeader.pch */,
+				8FBFB71D2C5CFA5A0042FA0A /* Login */,
 				8FBFB6FE2C5BF3A00042FA0A /* Components */,
 				8FBFB6E82C5A60A50042FA0A /* Base */,
 				8FBFB6DD2C5A5ED10042FA0A /* Home */,
@@ -261,6 +264,8 @@
 		8FBFB6E82C5A60A50042FA0A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8FBFB7732C5D38CA0042FA0A /* ImageHook.h */,
+				8FBFB7722C5D38CA0042FA0A /* ImageHook.m */,
 				8FBFB6E92C5A60B70042FA0A /* TabBarViewController.h */,
 				8FBFB6EA2C5A60B70042FA0A /* TabBarViewController.m */,
 			);
@@ -283,24 +288,8 @@
 		8FBFB6FE2C5BF3A00042FA0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				8FBFB7072C5BF4010042FA0A /* TMUIPageViewController */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		8FBFB7072C5BF4010042FA0A /* TMUIPageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				8FBFB6FF2C5BF4010042FA0A /* TMUIPageContentScrollView.h */,
-				8FBFB7002C5BF4010042FA0A /* TMUIPageContentScrollView.m */,
-				8FBFB7012C5BF4010042FA0A /* TMUIPageViewController.h */,
-				8FBFB7022C5BF4010042FA0A /* TMUIPageViewController.m */,
-				8FBFB7032C5BF4010042FA0A /* TMUIPageWrapperScrollView.h */,
-				8FBFB7042C5BF4010042FA0A /* TMUIPageWrapperScrollView.m */,
-				8FBFB7052C5BF4010042FA0A /* TMUISegmentControl.h */,
-				8FBFB7062C5BF4010042FA0A /* TMUISegmentControl.m */,
-			);
-			path = TMUIPageViewController;
 			sourceTree = "<group>";
 		};
 		8FBFB7122C5BFFF30042FA0A /* View */ = {
@@ -321,6 +310,20 @@
 				8FBFB71B2C5CDF0B0042FA0A /* CartToolBar.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8FBFB71D2C5CFA5A0042FA0A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFB71E2C5CFA720042FA0A /* LoginViewController.h */,
+				8FBFB71F2C5CFA720042FA0A /* LoginViewController.m */,
+				8FBFB7752C5D452C0042FA0A /* RegistViewController.h */,
+				8FBFB7762C5D452C0042FA0A /* RegistViewController.m */,
+				8FBFB7202C5CFA720042FA0A /* LoginViewController.xib */,
+				8FBFB7692C5D277B0042FA0A /* LoginTextField.h */,
+				8FBFB76A2C5D277B0042FA0A /* LoginTextField.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		EFB95E10F955680FDB989A65 /* Frameworks */ = {
@@ -344,6 +347,7 @@
 				8F7BC7362C5A3A8A00237A52 /* Sources */,
 				8F7BC7372C5A3A8A00237A52 /* Frameworks */,
 				8F7BC7382C5A3A8A00237A52 /* Resources */,
+				17EF67F9D85925EED1A158C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -381,6 +385,7 @@
 				8F7BC75B2C5A3A8C00237A52 /* Sources */,
 				8F7BC75C2C5A3A8C00237A52 /* Frameworks */,
 				8F7BC75D2C5A3A8C00237A52 /* Resources */,
+				708EAAB0FB26470532A06342 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -439,6 +444,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBFB7222C5CFA720042FA0A /* LoginViewController.xib in Resources */,
 				8F7BC74A2C5A3A8C00237A52 /* Assets.xcassets in Resources */,
 				8F7BC74D2C5A3A8C00237A52 /* Base in Resources */,
 				8F7BC7482C5A3A8A00237A52 /* Base in Resources */,
@@ -462,6 +468,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		17EF67F9D85925EED1A158C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RentalGaming/Pods-RentalGaming-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RentalGaming/Pods-RentalGaming-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RentalGaming/Pods-RentalGaming-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D2B977F4E629714666D7F92 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,6 +505,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708EAAB0FB26470532A06342 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RentalGaming-RentalGamingUITests/Pods-RentalGaming-RentalGamingUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RentalGaming-RentalGamingUITests/Pods-RentalGaming-RentalGamingUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RentalGaming-RentalGamingUITests/Pods-RentalGaming-RentalGamingUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7A5563CA849111AA0C06D9AA /* [CP] Check Pods Manifest.lock */ = {
@@ -535,19 +575,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBFB76B2C5D277B0042FA0A /* LoginTextField.m in Sources */,
 				8FBFB7192C5CAB100042FA0A /* CartItemCell.m in Sources */,
 				8FBFB6DC2C5A5EBE0042FA0A /* HotViewController.m in Sources */,
 				8FBFB6FA2C5BC33D0042FA0A /* HomeRecommendCell.m in Sources */,
-				8FBFB7082C5BF4010042FA0A /* TMUIPageContentScrollView.m in Sources */,
+				8FBFB7742C5D38CA0042FA0A /* ImageHook.m in Sources */,
+				8FBFB7212C5CFA720042FA0A /* LoginViewController.m in Sources */,
 				8F7BC73F2C5A3A8A00237A52 /* AppDelegate.m in Sources */,
-				8FBFB70A2C5BF4010042FA0A /* TMUIPageWrapperScrollView.m in Sources */,
 				8F7BC7502C5A3A8C00237A52 /* main.m in Sources */,
 				8FBFB6D92C5A5EB60042FA0A /* HomeViewController.m in Sources */,
-				8FBFB7092C5BF4010042FA0A /* TMUIPageViewController.m in Sources */,
 				8FBFB70E2C5BF7850042FA0A /* HotItemViewController.m in Sources */,
 				8FBFB6EB2C5A60B70042FA0A /* TabBarViewController.m in Sources */,
 				8FBFB6E42C5A5F150042FA0A /* CartViewController.m in Sources */,
-				8FBFB70B2C5BF4010042FA0A /* TMUISegmentControl.m in Sources */,
+				8FBFB7772C5D452C0042FA0A /* RegistViewController.m in Sources */,
 				8FBFB6E72C5A5F1D0042FA0A /* MeViewController.m in Sources */,
 				8FBFB7152C5C001A0042FA0A /* HotItemCell.m in Sources */,
 				8FBFB7112C5BFF210042FA0A /* HomeCustomizeItemCell.m in Sources */,
