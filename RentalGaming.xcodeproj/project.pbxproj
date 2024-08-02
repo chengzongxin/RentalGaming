@@ -33,6 +33,8 @@
 		8FBFB70E2C5BF7850042FA0A /* HotItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB70D2C5BF7850042FA0A /* HotItemViewController.m */; };
 		8FBFB7112C5BFF210042FA0A /* HomeCustomizeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7102C5BFF210042FA0A /* HomeCustomizeItemCell.m */; };
 		8FBFB7152C5C001A0042FA0A /* HotItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7142C5C001A0042FA0A /* HotItemCell.m */; };
+		8FBFB7192C5CAB100042FA0A /* CartItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7182C5CAB100042FA0A /* CartItemCell.m */; };
+		8FBFB71C2C5CDF0B0042FA0A /* CartToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB71B2C5CDF0B0042FA0A /* CartToolBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,10 @@
 		8FBFB7102C5BFF210042FA0A /* HomeCustomizeItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCustomizeItemCell.m; sourceTree = "<group>"; };
 		8FBFB7132C5C001A0042FA0A /* HotItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotItemCell.h; sourceTree = "<group>"; };
 		8FBFB7142C5C001A0042FA0A /* HotItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotItemCell.m; sourceTree = "<group>"; };
+		8FBFB7172C5CAB100042FA0A /* CartItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartItemCell.h; sourceTree = "<group>"; };
+		8FBFB7182C5CAB100042FA0A /* CartItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartItemCell.m; sourceTree = "<group>"; };
+		8FBFB71A2C5CDF0B0042FA0A /* CartToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartToolBar.h; sourceTree = "<group>"; };
+		8FBFB71B2C5CDF0B0042FA0A /* CartToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartToolBar.m; sourceTree = "<group>"; };
 		9684C34F95D748B02D0C8AF9 /* Pods-RentalGamingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGamingTests.release.xcconfig"; path = "Target Support Files/Pods-RentalGamingTests/Pods-RentalGamingTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC03783FAD5FC34F6CAEE9D8 /* Pods-RentalGaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGaming.release.xcconfig"; path = "Target Support Files/Pods-RentalGaming/Pods-RentalGaming.release.xcconfig"; sourceTree = "<group>"; };
 		B6403305375C022CFD1525B2 /* libPods-RentalGaming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RentalGaming.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -238,6 +244,7 @@
 			children = (
 				8FBFB6E22C5A5F150042FA0A /* CartViewController.h */,
 				8FBFB6E32C5A5F150042FA0A /* CartViewController.m */,
+				8FBFB7162C5CAAF00042FA0A /* View */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -301,6 +308,17 @@
 			children = (
 				8FBFB7132C5C001A0042FA0A /* HotItemCell.h */,
 				8FBFB7142C5C001A0042FA0A /* HotItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FBFB7162C5CAAF00042FA0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFB7172C5CAB100042FA0A /* CartItemCell.h */,
+				8FBFB7182C5CAB100042FA0A /* CartItemCell.m */,
+				8FBFB71A2C5CDF0B0042FA0A /* CartToolBar.h */,
+				8FBFB71B2C5CDF0B0042FA0A /* CartToolBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -517,6 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBFB7192C5CAB100042FA0A /* CartItemCell.m in Sources */,
 				8FBFB6DC2C5A5EBE0042FA0A /* HotViewController.m in Sources */,
 				8FBFB6FA2C5BC33D0042FA0A /* HomeRecommendCell.m in Sources */,
 				8FBFB7082C5BF4010042FA0A /* TMUIPageContentScrollView.m in Sources */,
@@ -532,6 +551,7 @@
 				8FBFB6E72C5A5F1D0042FA0A /* MeViewController.m in Sources */,
 				8FBFB7152C5C001A0042FA0A /* HotItemCell.m in Sources */,
 				8FBFB7112C5BFF210042FA0A /* HomeCustomizeItemCell.m in Sources */,
+				8FBFB71C2C5CDF0B0042FA0A /* CartToolBar.m in Sources */,
 				8FBFB6FD2C5BC34C0042FA0A /* HomeCustomizeCell.m in Sources */,
 				8F7BC7422C5A3A8A00237A52 /* SceneDelegate.m in Sources */,
 			);
