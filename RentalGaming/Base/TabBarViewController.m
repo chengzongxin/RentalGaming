@@ -18,6 +18,7 @@
     // Do any additional setup after loading the view.
     
     self.tabBar.tintColor = UIColor.yellowColor;
+    self.tabBar.backgroundColor = UIColorWhite;
     
 //    UITabBarItem *item = [self.tabBar.items objectAtIndex:0];
 //
