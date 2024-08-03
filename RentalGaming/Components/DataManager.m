@@ -74,6 +74,7 @@ SHARED_INSTANCE_FOR_CLASS
             
             
             model.name = oneM[0];
+            model.name = [model.name stringByReplacingOccurrencesOfString:@"名称：" withString:@""];
             model.price = [[self extractNumberFromString:oneM[1]] intValue];
             int idx = [[self extractNumberFromString:oneM[2]] intValue];
             if (!isnan(idx)) {

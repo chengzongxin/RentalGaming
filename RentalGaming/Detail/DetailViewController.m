@@ -6,6 +6,7 @@
 //
 
 #import "DetailViewController.h"
+#import "DetailItemCell.h"
 
 @interface DetailViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -238,7 +239,7 @@ TMUI_PropertyLazyLoad(NSMutableArray, priceCountLbls)
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, TMUI_SCREEN_WIDTH, 12 + 44)];
     TMUILabel *label = [[TMUILabel alloc] init];
-    label.frame = CGRectMake(12,12,TMUI_SCREEN_WIDTH,44);
+    label.frame = CGRectMake(12,12,TMUI_SCREEN_WIDTH - 12 * 2,44);
     label.numberOfLines = 0;
     [view addSubview:label];
     NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"商品详情"attributes: @{NSFontAttributeName: UIFont(16),NSForegroundColorAttributeName: [UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:1]}];
@@ -266,19 +267,9 @@ TMUI_PropertyLazyLoad(NSMutableArray, priceCountLbls)
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(UITableViewCell.class) forIndexPath:indexPath];
-    UIImageView *imgV = [cell viewWithTag:100];
-    if (!imgV) {
-        imgV = [[UIImageView alloc] init];
-        [cell.contentView addSubview:imgV];
-        cell.backgroundColor = UIColorClear;
-        [imgV mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(12);
-            make.right.mas_equalTo(-12);
-            make.top.bottom.mas_equalTo(0);
-        }];
-    }
-    imgV.image = self.model.detailImgs[indexPath.row];
+    DetailItemCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(DetailItemCell.class) forIndexPath:indexPath];
+    cell.backgroundColor = UIColorClear;
+    cell.imgV.image = self.model.detailImgs[indexPath.row];
     return cell;
 }
 
@@ -291,7 +282,7 @@ TMUI_PropertyLazyLoad(NSMutableArray, priceCountLbls)
 //    h:w=
     CGFloat h = 0;
     if (image.size.width && image.size.height) {
-        h = image.size.height / (image.size.width * 1.0) * (TMUI_SCREEN_WIDTH - 12 * 2);
+        h = image.size.height / (image.size.width * 1.0) * (TMUI_SCREEN_WIDTH - 12 * 2 * 2);
     }
     return h;
 }
@@ -309,7 +300,7 @@ TMUI_PropertyLazyLoad(NSMutableArray, priceCountLbls)
         _tableView.estimatedSectionFooterHeight = 0;
         _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        [_tableView registerClass:UITableViewCell.class forCellReuseIdentifier:NSStringFromClass(UITableViewCell.class)];
+        [_tableView registerClass:DetailItemCell.class forCellReuseIdentifier:NSStringFromClass(DetailItemCell.class)];
     }
     return _tableView;
 }
