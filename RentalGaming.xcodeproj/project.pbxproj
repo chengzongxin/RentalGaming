@@ -36,6 +36,263 @@
 		8FBFB76B2C5D277B0042FA0A /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB76A2C5D277B0042FA0A /* LoginTextField.m */; };
 		8FBFB7742C5D38CA0042FA0A /* ImageHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7722C5D38CA0042FA0A /* ImageHook.m */; };
 		8FBFB7772C5D452C0042FA0A /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB7762C5D452C0042FA0A /* RegistViewController.m */; };
+		8FBFB77B2C5DD88C0042FA0A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB77A2C5DD88C0042FA0A /* DetailViewController.m */; };
+		8FBFB9F32C5DF0990042FA0A /* rent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFB8CB2C5DF0990042FA0A /* rent.txt */; };
+		8FBFB9F62C5DF3480042FA0A /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFB9F52C5DF3480042FA0A /* DataManager.m */; };
+		8FBFBD962C5E058A0042FA0A /* 商品主图1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC6E2C5E05890042FA0A /* 商品主图1.jpg */; };
+		8FBFBD972C5E058A0042FA0A /* 商品主图2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC702C5E05890042FA0A /* 商品主图2.jpg */; };
+		8FBFBD982C5E058A0042FA0A /* 商品主图3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC722C5E05890042FA0A /* 商品主图3.jpg */; };
+		8FBFBD992C5E058A0042FA0A /* 商品主图4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC742C5E05890042FA0A /* 商品主图4.jpg */; };
+		8FBFBD9A2C5E058A0042FA0A /* 详情页4-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC752C5E05890042FA0A /* 详情页4-1.jpg */; };
+		8FBFBD9B2C5E058A0042FA0A /* 详情页4-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC762C5E05890042FA0A /* 详情页4-2.jpg */; };
+		8FBFBD9C2C5E058A0042FA0A /* 详情页4-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC772C5E05890042FA0A /* 详情页4-3.jpg */; };
+		8FBFBD9D2C5E058A0042FA0A /* 详情页4-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC782C5E05890042FA0A /* 详情页4-4.jpg */; };
+		8FBFBD9E2C5E058A0042FA0A /* 详情页4-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC792C5E05890042FA0A /* 详情页4-5.jpg */; };
+		8FBFBD9F2C5E058A0042FA0A /* 详情页4-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC7A2C5E05890042FA0A /* 详情页4-6.jpg */; };
+		8FBFBDA02C5E058A0042FA0A /* 详情页4-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC7B2C5E05890042FA0A /* 详情页4-7.jpg */; };
+		8FBFBDA12C5E058A0042FA0A /* 详情页4-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC7C2C5E05890042FA0A /* 详情页4-8.jpg */; };
+		8FBFBDA22C5E058A0042FA0A /* 详情页4-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC7D2C5E05890042FA0A /* 详情页4-9.jpg */; };
+		8FBFBDA32C5E058A0042FA0A /* 详情页4-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC7E2C5E05890042FA0A /* 详情页4-10.jpg */; };
+		8FBFBDA42C5E058A0042FA0A /* 商品主图5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC802C5E05890042FA0A /* 商品主图5.jpg */; };
+		8FBFBDA52C5E058A0042FA0A /* 商品主图6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC822C5E05890042FA0A /* 商品主图6.jpg */; };
+		8FBFBDA62C5E058A0042FA0A /* 商品主图7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC842C5E05890042FA0A /* 商品主图7.jpg */; };
+		8FBFBDA72C5E058A0042FA0A /* 商品主图8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC862C5E05890042FA0A /* 商品主图8.jpg */; };
+		8FBFBDA82C5E058A0042FA0A /* 商品主图9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC882C5E05890042FA0A /* 商品主图9.jpg */; };
+		8FBFBDA92C5E058A0042FA0A /* 商品主图10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC8A2C5E05890042FA0A /* 商品主图10.jpg */; };
+		8FBFBDAA2C5E058A0042FA0A /* 商品主图11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC8C2C5E05890042FA0A /* 商品主图11.jpg */; };
+		8FBFBDAB2C5E058A0042FA0A /* 商品主图 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC8E2C5E05890042FA0A /* 商品主图 12.jpg */; };
+		8FBFBDAC2C5E058A0042FA0A /* 商品主图13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC902C5E05890042FA0A /* 商品主图13.jpg */; };
+		8FBFBDAD2C5E058A0042FA0A /* 商品主图14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC922C5E05890042FA0A /* 商品主图14.jpg */; };
+		8FBFBDAE2C5E058A0042FA0A /* 商品主图15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC942C5E05890042FA0A /* 商品主图15.jpg */; };
+		8FBFBDAF2C5E058A0042FA0A /* 商品主图16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC962C5E05890042FA0A /* 商品主图16.jpg */; };
+		8FBFBDB02C5E058A0042FA0A /* 商品主图17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC982C5E05890042FA0A /* 商品主图17.jpg */; };
+		8FBFBDB12C5E058A0042FA0A /* 商品主图18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC9A2C5E05890042FA0A /* 商品主图18.jpg */; };
+		8FBFBDB22C5E058A0042FA0A /* 商品主图19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC9C2C5E05890042FA0A /* 商品主图19.jpg */; };
+		8FBFBDB32C5E058A0042FA0A /* 商品主图20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBC9E2C5E05890042FA0A /* 商品主图20.jpg */; };
+		8FBFBDB42C5E058A0042FA0A /* 商品主图21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA02C5E05890042FA0A /* 商品主图21.jpg */; };
+		8FBFBDB52C5E058A0042FA0A /* 详情页21-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA12C5E05890042FA0A /* 详情页21-1.jpg */; };
+		8FBFBDB62C5E058A0042FA0A /* 详情页21-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA22C5E05890042FA0A /* 详情页21-2.jpg */; };
+		8FBFBDB72C5E058A0042FA0A /* 详情页21-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA32C5E05890042FA0A /* 详情页21-3.jpg */; };
+		8FBFBDB82C5E058A0042FA0A /* 详情页21-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA42C5E05890042FA0A /* 详情页21-4.jpg */; };
+		8FBFBDB92C5E058A0042FA0A /* 详情页21-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA52C5E05890042FA0A /* 详情页21-5.jpg */; };
+		8FBFBDBA2C5E058A0042FA0A /* 详情页21-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA62C5E05890042FA0A /* 详情页21-6.jpg */; };
+		8FBFBDBB2C5E058A0042FA0A /* 详情页21-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA72C5E05890042FA0A /* 详情页21-7.jpg */; };
+		8FBFBDBC2C5E058A0042FA0A /* 详情页21-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCA82C5E05890042FA0A /* 详情页21-8.jpg */; };
+		8FBFBDBD2C5E058A0042FA0A /* 商品主图22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCAA2C5E05890042FA0A /* 商品主图22.jpg */; };
+		8FBFBDBE2C5E058A0042FA0A /* 详情页22-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCAB2C5E05890042FA0A /* 详情页22-1.jpg */; };
+		8FBFBDBF2C5E058A0042FA0A /* 详情页22-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCAC2C5E05890042FA0A /* 详情页22-2.jpg */; };
+		8FBFBDC02C5E058A0042FA0A /* 详情页22-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCAD2C5E05890042FA0A /* 详情页22-3.jpg */; };
+		8FBFBDC12C5E058A0042FA0A /* 详情页22-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCAE2C5E05890042FA0A /* 详情页22-4.jpg */; };
+		8FBFBDC22C5E058A0042FA0A /* 详情页22-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCAF2C5E05890042FA0A /* 详情页22-5.jpg */; };
+		8FBFBDC32C5E058A0042FA0A /* 详情页22-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB02C5E05890042FA0A /* 详情页22-6.jpg */; };
+		8FBFBDC42C5E058A0042FA0A /* 详情页22-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB12C5E05890042FA0A /* 详情页22-7.jpg */; };
+		8FBFBDC52C5E058A0042FA0A /* 详情页22-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB22C5E05890042FA0A /* 详情页22-8.jpg */; };
+		8FBFBDC62C5E058A0042FA0A /* 详情页22-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB32C5E05890042FA0A /* 详情页22-9.jpg */; };
+		8FBFBDC72C5E058A0042FA0A /* 详情页22-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB42C5E05890042FA0A /* 详情页22-10.jpg */; };
+		8FBFBDC82C5E058A0042FA0A /* 详情页22-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB52C5E05890042FA0A /* 详情页22-11.jpg */; };
+		8FBFBDC92C5E058A0042FA0A /* 详情页22-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB62C5E05890042FA0A /* 详情页22-12.jpg */; };
+		8FBFBDCA2C5E058A0042FA0A /* 详情页22-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB72C5E05890042FA0A /* 详情页22-13.jpg */; };
+		8FBFBDCB2C5E058A0042FA0A /* 详情页22-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB82C5E05890042FA0A /* 详情页22-14.jpg */; };
+		8FBFBDCC2C5E058A0042FA0A /* 详情页22-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCB92C5E05890042FA0A /* 详情页22-15.jpg */; };
+		8FBFBDCD2C5E058A0042FA0A /* 商品主图23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCBB2C5E05890042FA0A /* 商品主图23.jpg */; };
+		8FBFBDCE2C5E058A0042FA0A /* 详情页23-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCBC2C5E05890042FA0A /* 详情页23-1.jpg */; };
+		8FBFBDCF2C5E058A0042FA0A /* 详情页23-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCBD2C5E05890042FA0A /* 详情页23-2.jpg */; };
+		8FBFBDD02C5E058A0042FA0A /* 详情页23-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCBE2C5E05890042FA0A /* 详情页23-3.jpg */; };
+		8FBFBDD12C5E058A0042FA0A /* 详情页23-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCBF2C5E05890042FA0A /* 详情页23-4.jpg */; };
+		8FBFBDD22C5E058A0042FA0A /* 详情页23-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC02C5E05890042FA0A /* 详情页23-5.jpg */; };
+		8FBFBDD32C5E058A0042FA0A /* 商品主图24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC22C5E05890042FA0A /* 商品主图24.jpg */; };
+		8FBFBDD42C5E058A0042FA0A /* 详情页24-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC32C5E05890042FA0A /* 详情页24-1.jpg */; };
+		8FBFBDD52C5E058A0042FA0A /* 详情页24-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC42C5E05890042FA0A /* 详情页24-2.jpg */; };
+		8FBFBDD62C5E058A0042FA0A /* 详情页24-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC52C5E05890042FA0A /* 详情页24-3.jpg */; };
+		8FBFBDD72C5E058A0042FA0A /* 详情页24-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC62C5E05890042FA0A /* 详情页24-4.jpg */; };
+		8FBFBDD82C5E058A0042FA0A /* 详情页24-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC72C5E05890042FA0A /* 详情页24-5.jpg */; };
+		8FBFBDD92C5E058A0042FA0A /* 详情页24-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC82C5E05890042FA0A /* 详情页24-6.jpg */; };
+		8FBFBDDA2C5E058A0042FA0A /* 详情页24-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCC92C5E05890042FA0A /* 详情页24-7.jpg */; };
+		8FBFBDDB2C5E058A0042FA0A /* 详情页24-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCCA2C5E05890042FA0A /* 详情页24-8.jpg */; };
+		8FBFBDDC2C5E058A0042FA0A /* 详情页24-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCCB2C5E05890042FA0A /* 详情页24-9.jpg */; };
+		8FBFBDDD2C5E058A0042FA0A /* 详情页24-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCCC2C5E05890042FA0A /* 详情页24-10.jpg */; };
+		8FBFBDDE2C5E058A0042FA0A /* 商品主图25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCCE2C5E05890042FA0A /* 商品主图25.jpg */; };
+		8FBFBDDF2C5E058A0042FA0A /* 详情页25-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCCF2C5E05890042FA0A /* 详情页25-1.jpg */; };
+		8FBFBDE02C5E058A0042FA0A /* 详情页25-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD02C5E05890042FA0A /* 详情页25-2.jpg */; };
+		8FBFBDE12C5E058A0042FA0A /* 详情页25-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD12C5E05890042FA0A /* 详情页25-3.jpg */; };
+		8FBFBDE22C5E058A0042FA0A /* 详情页25-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD22C5E05890042FA0A /* 详情页25-4.jpg */; };
+		8FBFBDE32C5E058A0042FA0A /* 详情页25-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD32C5E05890042FA0A /* 详情页25-5.jpg */; };
+		8FBFBDE42C5E058A0042FA0A /* 详情页25-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD42C5E05890042FA0A /* 详情页25-6.jpg */; };
+		8FBFBDE52C5E058A0042FA0A /* 详情页25-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD52C5E05890042FA0A /* 详情页25-7.jpg */; };
+		8FBFBDE62C5E058A0042FA0A /* 详情页25-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD62C5E05890042FA0A /* 详情页25-8.jpg */; };
+		8FBFBDE72C5E058A0042FA0A /* 详情页25-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD72C5E05890042FA0A /* 详情页25-9.jpg */; };
+		8FBFBDE82C5E058A0042FA0A /* 详情页25-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCD82C5E05890042FA0A /* 详情页25-10.jpg */; };
+		8FBFBDE92C5E058A0042FA0A /* 商品主图26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCDA2C5E05890042FA0A /* 商品主图26.jpg */; };
+		8FBFBDEA2C5E058A0042FA0A /* 详情页26-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCDB2C5E05890042FA0A /* 详情页26-1.jpg */; };
+		8FBFBDEB2C5E058A0042FA0A /* 详情页26-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCDC2C5E05890042FA0A /* 详情页26-2.jpg */; };
+		8FBFBDEC2C5E058A0042FA0A /* 详情页26-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCDD2C5E05890042FA0A /* 详情页26-3.jpg */; };
+		8FBFBDED2C5E058A0042FA0A /* 详情页26-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCDE2C5E05890042FA0A /* 详情页26-4.jpg */; };
+		8FBFBDEE2C5E058A0042FA0A /* 详情页26-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCDF2C5E05890042FA0A /* 详情页26-5.jpg */; };
+		8FBFBDEF2C5E058A0042FA0A /* 详情页26-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE02C5E05890042FA0A /* 详情页26-6.jpg */; };
+		8FBFBDF02C5E058A0042FA0A /* 详情页26-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE12C5E05890042FA0A /* 详情页26-7.jpg */; };
+		8FBFBDF12C5E058A0042FA0A /* 详情页26-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE22C5E05890042FA0A /* 详情页26-8.jpg */; };
+		8FBFBDF22C5E058A0042FA0A /* 详情页26-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE32C5E05890042FA0A /* 详情页26-9.jpg */; };
+		8FBFBDF32C5E058A0042FA0A /* 详情页26-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE42C5E05890042FA0A /* 详情页26-10.jpg */; };
+		8FBFBDF42C5E058A0042FA0A /* 详情页26-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE52C5E05890042FA0A /* 详情页26-11.jpg */; };
+		8FBFBDF52C5E058A0042FA0A /* 商品主图27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE72C5E05890042FA0A /* 商品主图27.jpg */; };
+		8FBFBDF62C5E058A0042FA0A /* 详情页27-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE82C5E05890042FA0A /* 详情页27-1.jpg */; };
+		8FBFBDF72C5E058A0042FA0A /* 详情页27-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCE92C5E05890042FA0A /* 详情页27-2.jpg */; };
+		8FBFBDF82C5E058A0042FA0A /* 详情页27-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCEA2C5E05890042FA0A /* 详情页27-3.jpg */; };
+		8FBFBDF92C5E058A0042FA0A /* 详情页27-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCEB2C5E05890042FA0A /* 详情页27-4.jpg */; };
+		8FBFBDFA2C5E058A0042FA0A /* 详情页27-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCEC2C5E05890042FA0A /* 详情页27-5.jpg */; };
+		8FBFBDFB2C5E058A0042FA0A /* 详情页27-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCED2C5E05890042FA0A /* 详情页27-6.jpg */; };
+		8FBFBDFC2C5E058A0042FA0A /* 详情页27-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCEE2C5E05890042FA0A /* 详情页27-7.jpg */; };
+		8FBFBDFD2C5E058A0042FA0A /* 详情页27-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCEF2C5E05890042FA0A /* 详情页27-8.jpg */; };
+		8FBFBDFE2C5E058A0042FA0A /* 详情页27-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF02C5E05890042FA0A /* 详情页27-9.jpg */; };
+		8FBFBDFF2C5E058A0042FA0A /* 详情页27-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF12C5E05890042FA0A /* 详情页27-10.jpg */; };
+		8FBFBE002C5E058A0042FA0A /* 详情页27-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF22C5E05890042FA0A /* 详情页27-11.jpg */; };
+		8FBFBE012C5E058A0042FA0A /* 详情页27-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF32C5E05890042FA0A /* 详情页27-12.jpg */; };
+		8FBFBE022C5E058A0042FA0A /* 商品主图28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF52C5E05890042FA0A /* 商品主图28.jpg */; };
+		8FBFBE032C5E058A0042FA0A /* 详情页28-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF62C5E05890042FA0A /* 详情页28-1.jpg */; };
+		8FBFBE042C5E058A0042FA0A /* 详情页28-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF72C5E05890042FA0A /* 详情页28-2.jpg */; };
+		8FBFBE052C5E058A0042FA0A /* 详情页28-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF82C5E05890042FA0A /* 详情页28-3.jpg */; };
+		8FBFBE062C5E058A0042FA0A /* 详情页28-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCF92C5E05890042FA0A /* 详情页28-4.jpg */; };
+		8FBFBE072C5E058A0042FA0A /* 详情页28-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCFA2C5E05890042FA0A /* 详情页28-5.jpg */; };
+		8FBFBE082C5E058A0042FA0A /* 详情页28-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCFB2C5E05890042FA0A /* 详情页28-6.jpg */; };
+		8FBFBE092C5E058A0042FA0A /* 详情页28-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCFC2C5E05890042FA0A /* 详情页28-7.jpg */; };
+		8FBFBE0A2C5E058A0042FA0A /* 详情页28-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCFD2C5E05890042FA0A /* 详情页28-8.jpg */; };
+		8FBFBE0B2C5E058A0042FA0A /* 商品主图29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBCFF2C5E05890042FA0A /* 商品主图29.jpg */; };
+		8FBFBE0C2C5E058A0042FA0A /* 详情页29-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD002C5E05890042FA0A /* 详情页29-1.jpg */; };
+		8FBFBE0D2C5E058A0042FA0A /* 详情页29-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD012C5E05890042FA0A /* 详情页29-2.jpg */; };
+		8FBFBE0E2C5E058A0042FA0A /* 详情页29-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD022C5E05890042FA0A /* 详情页29-3.jpg */; };
+		8FBFBE0F2C5E058A0042FA0A /* 详情页29-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD032C5E05890042FA0A /* 详情页29-4.jpg */; };
+		8FBFBE102C5E058A0042FA0A /* 详情页29-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD042C5E05890042FA0A /* 详情页29-5.jpg */; };
+		8FBFBE112C5E058A0042FA0A /* 详情页29-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD052C5E05890042FA0A /* 详情页29-6.jpg */; };
+		8FBFBE122C5E058A0042FA0A /* 详情页29-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD062C5E05890042FA0A /* 详情页29-7.jpg */; };
+		8FBFBE132C5E058A0042FA0A /* 详情页29-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD072C5E05890042FA0A /* 详情页29-8.jpg */; };
+		8FBFBE142C5E058A0042FA0A /* 详情页29-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD082C5E05890042FA0A /* 详情页29-9.jpg */; };
+		8FBFBE152C5E058A0042FA0A /* 详情页29-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD092C5E05890042FA0A /* 详情页29-10.jpg */; };
+		8FBFBE162C5E058A0042FA0A /* 详情页29-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD0A2C5E05890042FA0A /* 详情页29-11.jpg */; };
+		8FBFBE172C5E058A0042FA0A /* 详情页29-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD0B2C5E05890042FA0A /* 详情页29-12.jpg */; };
+		8FBFBE182C5E058A0042FA0A /* 详情页29-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD0C2C5E05890042FA0A /* 详情页29-13.jpg */; };
+		8FBFBE192C5E058A0042FA0A /* 商品主图30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD0E2C5E05890042FA0A /* 商品主图30.jpg */; };
+		8FBFBE1A2C5E058A0042FA0A /* 详情页30-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD0F2C5E05890042FA0A /* 详情页30-1.jpg */; };
+		8FBFBE1B2C5E058A0042FA0A /* 详情页30-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD102C5E05890042FA0A /* 详情页30-2.jpg */; };
+		8FBFBE1C2C5E058A0042FA0A /* 详情页30-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD112C5E05890042FA0A /* 详情页30-3.jpg */; };
+		8FBFBE1D2C5E058A0042FA0A /* 详情页30-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD122C5E05890042FA0A /* 详情页30-4.jpg */; };
+		8FBFBE1E2C5E058A0042FA0A /* 详情页30-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD132C5E05890042FA0A /* 详情页30-5.jpg */; };
+		8FBFBE1F2C5E058A0042FA0A /* 详情页30-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD142C5E05890042FA0A /* 详情页30-6.jpg */; };
+		8FBFBE202C5E058A0042FA0A /* 详情页30-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD152C5E05890042FA0A /* 详情页30-7.jpg */; };
+		8FBFBE212C5E058A0042FA0A /* 详情页30-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD162C5E05890042FA0A /* 详情页30-8.jpg */; };
+		8FBFBE222C5E058A0042FA0A /* 详情页30-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD172C5E05890042FA0A /* 详情页30-9.jpg */; };
+		8FBFBE232C5E058A0042FA0A /* 详情页30-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD182C5E05890042FA0A /* 详情页30-10.jpg */; };
+		8FBFBE242C5E058A0042FA0A /* 详情页30-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD192C5E05890042FA0A /* 详情页30-11.jpg */; };
+		8FBFBE252C5E058A0042FA0A /* 详情页30-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD1A2C5E05890042FA0A /* 详情页30-12.jpg */; };
+		8FBFBE262C5E058A0042FA0A /* 商品主图31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD1C2C5E05890042FA0A /* 商品主图31.jpg */; };
+		8FBFBE272C5E058A0042FA0A /* 详情页31-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD1D2C5E05890042FA0A /* 详情页31-1.jpg */; };
+		8FBFBE282C5E058A0042FA0A /* 详情页31-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD1E2C5E05890042FA0A /* 详情页31-2.jpg */; };
+		8FBFBE292C5E058A0042FA0A /* 详情页31-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD1F2C5E05890042FA0A /* 详情页31-3.jpg */; };
+		8FBFBE2A2C5E058A0042FA0A /* 详情页31-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD202C5E05890042FA0A /* 详情页31-4.jpg */; };
+		8FBFBE2B2C5E058A0042FA0A /* 详情页31-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD212C5E05890042FA0A /* 详情页31-5.jpg */; };
+		8FBFBE2C2C5E058A0042FA0A /* 详情页31-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD222C5E05890042FA0A /* 详情页31-6.jpg */; };
+		8FBFBE2D2C5E058A0042FA0A /* 详情页31-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD232C5E05890042FA0A /* 详情页31-7.jpg */; };
+		8FBFBE2E2C5E058A0042FA0A /* 详情页31-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD242C5E05890042FA0A /* 详情页31-8.jpg */; };
+		8FBFBE2F2C5E058A0042FA0A /* 详情页31-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD252C5E05890042FA0A /* 详情页31-9.jpg */; };
+		8FBFBE302C5E058A0042FA0A /* 详情页31-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD262C5E05890042FA0A /* 详情页31-10.jpg */; };
+		8FBFBE312C5E058A0042FA0A /* 详情页31-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD272C5E05890042FA0A /* 详情页31-11.jpg */; };
+		8FBFBE322C5E058A0042FA0A /* 详情页31-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD282C5E05890042FA0A /* 详情页31-12.jpg */; };
+		8FBFBE332C5E058A0042FA0A /* 商品主图32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD2A2C5E05890042FA0A /* 商品主图32.jpg */; };
+		8FBFBE342C5E058A0042FA0A /* 详情页32-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD2B2C5E05890042FA0A /* 详情页32-1.jpg */; };
+		8FBFBE352C5E058A0042FA0A /* 详情页32-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD2C2C5E05890042FA0A /* 详情页32-2.jpg */; };
+		8FBFBE362C5E058A0042FA0A /* 详情页32-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD2D2C5E05890042FA0A /* 详情页32-3.jpg */; };
+		8FBFBE372C5E058A0042FA0A /* 详情页32-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD2E2C5E05890042FA0A /* 详情页32-4.jpg */; };
+		8FBFBE382C5E058A0042FA0A /* 详情页32-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD2F2C5E05890042FA0A /* 详情页32-5.jpg */; };
+		8FBFBE392C5E058A0042FA0A /* 详情页32-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD302C5E05890042FA0A /* 详情页32-6.jpg */; };
+		8FBFBE3A2C5E058A0042FA0A /* 详情页32-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD312C5E05890042FA0A /* 详情页32-7.jpg */; };
+		8FBFBE3B2C5E058A0042FA0A /* 详情页32-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD322C5E05890042FA0A /* 详情页32-8.jpg */; };
+		8FBFBE3C2C5E058A0042FA0A /* 详情页32-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD332C5E05890042FA0A /* 详情页32-9.jpg */; };
+		8FBFBE3D2C5E058A0042FA0A /* 详情页32-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD342C5E05890042FA0A /* 详情页32-11.jpg */; };
+		8FBFBE3E2C5E058A0042FA0A /* 详情页132-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD352C5E05890042FA0A /* 详情页132-0.jpg */; };
+		8FBFBE3F2C5E058A0042FA0A /* 商品主图33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD372C5E05890042FA0A /* 商品主图33.jpg */; };
+		8FBFBE402C5E058A0042FA0A /* 详情页33-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD382C5E05890042FA0A /* 详情页33-1.jpg */; };
+		8FBFBE412C5E058A0042FA0A /* 详情页33-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD392C5E05890042FA0A /* 详情页33-2.jpg */; };
+		8FBFBE422C5E058A0042FA0A /* 详情页33-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD3A2C5E05890042FA0A /* 详情页33-3.jpg */; };
+		8FBFBE432C5E058A0042FA0A /* 详情页33-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD3B2C5E05890042FA0A /* 详情页33-4.jpg */; };
+		8FBFBE442C5E058A0042FA0A /* 详情页33-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD3C2C5E05890042FA0A /* 详情页33-5.jpg */; };
+		8FBFBE452C5E058A0042FA0A /* 详情页33-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD3D2C5E05890042FA0A /* 详情页33-6.jpg */; };
+		8FBFBE462C5E058A0042FA0A /* 详情页33-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD3E2C5E05890042FA0A /* 详情页33-7.jpg */; };
+		8FBFBE472C5E058A0042FA0A /* 详情页33-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD3F2C5E05890042FA0A /* 详情页33-8.jpg */; };
+		8FBFBE482C5E058A0042FA0A /* 详情页33-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD402C5E05890042FA0A /* 详情页33-9.jpg */; };
+		8FBFBE492C5E058A0042FA0A /* 商品主图34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD422C5E05890042FA0A /* 商品主图34.jpg */; };
+		8FBFBE4A2C5E058A0042FA0A /* 详情页34-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD432C5E05890042FA0A /* 详情页34-1.jpg */; };
+		8FBFBE4B2C5E058A0042FA0A /* 详情页34-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD442C5E05890042FA0A /* 详情页34-2.jpg */; };
+		8FBFBE4C2C5E058A0042FA0A /* 详情页34-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD452C5E05890042FA0A /* 详情页34-3.jpg */; };
+		8FBFBE4D2C5E058A0042FA0A /* 详情页34-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD462C5E05890042FA0A /* 详情页34-4.jpg */; };
+		8FBFBE4E2C5E058A0042FA0A /* 详情页34-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD472C5E05890042FA0A /* 详情页34-5.jpg */; };
+		8FBFBE4F2C5E058A0042FA0A /* 详情页34-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD482C5E05890042FA0A /* 详情页34-6.jpg */; };
+		8FBFBE502C5E058A0042FA0A /* 详情页34-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD492C5E05890042FA0A /* 详情页34-7.jpg */; };
+		8FBFBE512C5E058A0042FA0A /* 详情页34-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD4A2C5E05890042FA0A /* 详情页34-8.jpg */; };
+		8FBFBE522C5E058A0042FA0A /* 详情页34-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD4B2C5E05890042FA0A /* 详情页34-9.jpg */; };
+		8FBFBE532C5E058A0042FA0A /* 商品主图35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD4D2C5E05890042FA0A /* 商品主图35.jpg */; };
+		8FBFBE542C5E058A0042FA0A /* 详情页35-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD4E2C5E05890042FA0A /* 详情页35-1.jpg */; };
+		8FBFBE552C5E058A0042FA0A /* 详情页35-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD4F2C5E05890042FA0A /* 详情页35-2.jpg */; };
+		8FBFBE562C5E058A0042FA0A /* 详情页35-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD502C5E05890042FA0A /* 详情页35-3.jpg */; };
+		8FBFBE572C5E058A0042FA0A /* 详情页35-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD512C5E05890042FA0A /* 详情页35-4.jpg */; };
+		8FBFBE582C5E058A0042FA0A /* 详情页35-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD522C5E05890042FA0A /* 详情页35-5.jpg */; };
+		8FBFBE592C5E058A0042FA0A /* 详情页35-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD532C5E05890042FA0A /* 详情页35-6.jpg */; };
+		8FBFBE5A2C5E058A0042FA0A /* 详情页35-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD542C5E05890042FA0A /* 详情页35-7.jpg */; };
+		8FBFBE5B2C5E058A0042FA0A /* 详情页35-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD552C5E05890042FA0A /* 详情页35-8.jpg */; };
+		8FBFBE5C2C5E058A0042FA0A /* 详情页35-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD562C5E05890042FA0A /* 详情页35-9.jpg */; };
+		8FBFBE5D2C5E058A0042FA0A /* 详情页35-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD572C5E05890042FA0A /* 详情页35-10.jpg */; };
+		8FBFBE5E2C5E058A0042FA0A /* 商品主图36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD592C5E05890042FA0A /* 商品主图36.jpg */; };
+		8FBFBE5F2C5E058A0042FA0A /* 详情页36-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD5A2C5E05890042FA0A /* 详情页36-1.jpg */; };
+		8FBFBE602C5E058A0042FA0A /* 详情页36-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD5B2C5E05890042FA0A /* 详情页36-2.jpg */; };
+		8FBFBE612C5E058A0042FA0A /* 详情页36-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD5C2C5E05890042FA0A /* 详情页36-3.jpg */; };
+		8FBFBE622C5E058A0042FA0A /* 详情页36-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD5D2C5E05890042FA0A /* 详情页36-4.jpg */; };
+		8FBFBE632C5E058A0042FA0A /* 详情页36-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD5E2C5E05890042FA0A /* 详情页36-5.jpg */; };
+		8FBFBE642C5E058A0042FA0A /* 详情页36-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD5F2C5E05890042FA0A /* 详情页36-6.jpg */; };
+		8FBFBE652C5E058A0042FA0A /* 详情页36-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD602C5E05890042FA0A /* 详情页36-7.jpg */; };
+		8FBFBE662C5E058A0042FA0A /* 详情页36-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD612C5E05890042FA0A /* 详情页36-8.jpg */; };
+		8FBFBE672C5E058A0042FA0A /* 详情页36-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD622C5E05890042FA0A /* 详情页36-9.jpg */; };
+		8FBFBE682C5E058A0042FA0A /* 详情页36-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD632C5E05890042FA0A /* 详情页36-10.jpg */; };
+		8FBFBE692C5E058A0042FA0A /* 商品主图37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD652C5E05890042FA0A /* 商品主图37.jpg */; };
+		8FBFBE6A2C5E058A0042FA0A /* 详情页37-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD662C5E05890042FA0A /* 详情页37-1.jpg */; };
+		8FBFBE6B2C5E058A0042FA0A /* 详情页37-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD672C5E05890042FA0A /* 详情页37-2.jpg */; };
+		8FBFBE6C2C5E058A0042FA0A /* 详情页37-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD682C5E05890042FA0A /* 详情页37-3.jpg */; };
+		8FBFBE6D2C5E058A0042FA0A /* 详情页37-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD692C5E05890042FA0A /* 详情页37-4.jpg */; };
+		8FBFBE6E2C5E058A0042FA0A /* 详情页37-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD6A2C5E05890042FA0A /* 详情页37-5.jpg */; };
+		8FBFBE6F2C5E058A0042FA0A /* 详情页37-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD6B2C5E05890042FA0A /* 详情页37-6.jpg */; };
+		8FBFBE702C5E058A0042FA0A /* 详情页37-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD6C2C5E05890042FA0A /* 详情页37-7.jpg */; };
+		8FBFBE712C5E058A0042FA0A /* 详情页37-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD6D2C5E05890042FA0A /* 详情页37-8.jpg */; };
+		8FBFBE722C5E058A0042FA0A /* 详情页37-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD6E2C5E05890042FA0A /* 详情页37-9.jpg */; };
+		8FBFBE732C5E058A0042FA0A /* 详情页37-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD6F2C5E05890042FA0A /* 详情页37-10.jpg */; };
+		8FBFBE742C5E058A0042FA0A /* 商品主图38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD712C5E05890042FA0A /* 商品主图38.jpg */; };
+		8FBFBE752C5E058A0042FA0A /* 详情页38-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD722C5E05890042FA0A /* 详情页38-1.jpg */; };
+		8FBFBE762C5E058A0042FA0A /* 详情页38-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD732C5E05890042FA0A /* 详情页38-2.jpg */; };
+		8FBFBE772C5E058A0042FA0A /* 详情页38-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD742C5E05890042FA0A /* 详情页38-3.jpg */; };
+		8FBFBE782C5E058A0042FA0A /* 详情页38-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD752C5E05890042FA0A /* 详情页38-4.jpg */; };
+		8FBFBE792C5E058A0042FA0A /* 详情页38-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD762C5E05890042FA0A /* 详情页38-5.jpg */; };
+		8FBFBE7A2C5E058A0042FA0A /* 详情页38-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD772C5E05890042FA0A /* 详情页38-6.jpg */; };
+		8FBFBE7B2C5E058A0042FA0A /* 详情页38-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD782C5E05890042FA0A /* 详情页38-7.jpg */; };
+		8FBFBE7C2C5E058A0042FA0A /* 详情页38-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD792C5E05890042FA0A /* 详情页38-8.jpg */; };
+		8FBFBE7D2C5E058A0042FA0A /* 详情页38-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD7A2C5E05890042FA0A /* 详情页38-9.jpg */; };
+		8FBFBE7E2C5E058A0042FA0A /* 详情页38-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD7B2C5E05890042FA0A /* 详情页38-10.jpg */; };
+		8FBFBE7F2C5E058A0042FA0A /* 详情页38-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD7C2C5E05890042FA0A /* 详情页38-11.jpg */; };
+		8FBFBE802C5E058A0042FA0A /* 商品主39图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD7E2C5E05890042FA0A /* 商品主39图.jpg */; };
+		8FBFBE812C5E058A0042FA0A /* 详情页39-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD7F2C5E05890042FA0A /* 详情页39-1.jpg */; };
+		8FBFBE822C5E058A0042FA0A /* 详情页39-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD802C5E05890042FA0A /* 详情页39-2.jpg */; };
+		8FBFBE832C5E058A0042FA0A /* 详情页39-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD812C5E05890042FA0A /* 详情页39-3.jpg */; };
+		8FBFBE842C5E058A0042FA0A /* 详情页39-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD822C5E05890042FA0A /* 详情页39-4.jpg */; };
+		8FBFBE852C5E058A0042FA0A /* 详情页39-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD832C5E05890042FA0A /* 详情页39-5.jpg */; };
+		8FBFBE862C5E058A0042FA0A /* 详情页39-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD842C5E05890042FA0A /* 详情页39-6.jpg */; };
+		8FBFBE872C5E058A0042FA0A /* 详情页39-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD852C5E05890042FA0A /* 详情页39-7.jpg */; };
+		8FBFBE882C5E058A0042FA0A /* 商品主图40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD872C5E05890042FA0A /* 商品主图40.jpg */; };
+		8FBFBE892C5E058A0042FA0A /* 详情页40-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD882C5E05890042FA0A /* 详情页40-1.jpg */; };
+		8FBFBE8A2C5E058A0042FA0A /* 详情页40-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD892C5E05890042FA0A /* 详情页40-2.jpg */; };
+		8FBFBE8B2C5E058A0042FA0A /* 详情页40-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD8A2C5E05890042FA0A /* 详情页40-3.jpg */; };
+		8FBFBE8C2C5E058A0042FA0A /* 详情页40-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD8B2C5E05890042FA0A /* 详情页40-4.jpg */; };
+		8FBFBE8D2C5E058A0042FA0A /* 详情页40-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD8C2C5E05890042FA0A /* 详情页40-5.jpg */; };
+		8FBFBE8E2C5E058A0042FA0A /* 详情页40-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD8D2C5E05890042FA0A /* 详情页40-6.jpg */; };
+		8FBFBE8F2C5E058A0042FA0A /* 详情页40-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD8E2C5E05890042FA0A /* 详情页40-7.jpg */; };
+		8FBFBE902C5E058A0042FA0A /* 详情页40-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD8F2C5E05890042FA0A /* 详情页40-8.jpg */; };
+		8FBFBE912C5E058A0042FA0A /* 详情页40-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD902C5E05890042FA0A /* 详情页40-9.jpg */; };
+		8FBFBE922C5E058A0042FA0A /* 详情页40-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD912C5E05890042FA0A /* 详情页40-10.jpg */; };
+		8FBFBE932C5E058A0042FA0A /* 详情页40-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD922C5E05890042FA0A /* 详情页40-11.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +368,265 @@
 		8FBFB7732C5D38CA0042FA0A /* ImageHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHook.h; sourceTree = "<group>"; };
 		8FBFB7752C5D452C0042FA0A /* RegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
 		8FBFB7762C5D452C0042FA0A /* RegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		8FBFB7792C5DD88C0042FA0A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8FBFB77A2C5DD88C0042FA0A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8FBFB8CB2C5DF0990042FA0A /* rent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rent.txt; sourceTree = "<group>"; };
+		8FBFB9F42C5DF3480042FA0A /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		8FBFB9F52C5DF3480042FA0A /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		8FBFBC6E2C5E05890042FA0A /* 商品主图1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图1.jpg"; sourceTree = "<group>"; };
+		8FBFBC702C5E05890042FA0A /* 商品主图2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图2.jpg"; sourceTree = "<group>"; };
+		8FBFBC722C5E05890042FA0A /* 商品主图3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图3.jpg"; sourceTree = "<group>"; };
+		8FBFBC742C5E05890042FA0A /* 商品主图4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图4.jpg"; sourceTree = "<group>"; };
+		8FBFBC752C5E05890042FA0A /* 详情页4-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-1.jpg"; sourceTree = "<group>"; };
+		8FBFBC762C5E05890042FA0A /* 详情页4-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-2.jpg"; sourceTree = "<group>"; };
+		8FBFBC772C5E05890042FA0A /* 详情页4-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-3.jpg"; sourceTree = "<group>"; };
+		8FBFBC782C5E05890042FA0A /* 详情页4-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-4.jpg"; sourceTree = "<group>"; };
+		8FBFBC792C5E05890042FA0A /* 详情页4-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-5.jpg"; sourceTree = "<group>"; };
+		8FBFBC7A2C5E05890042FA0A /* 详情页4-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-6.jpg"; sourceTree = "<group>"; };
+		8FBFBC7B2C5E05890042FA0A /* 详情页4-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-7.jpg"; sourceTree = "<group>"; };
+		8FBFBC7C2C5E05890042FA0A /* 详情页4-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-8.jpg"; sourceTree = "<group>"; };
+		8FBFBC7D2C5E05890042FA0A /* 详情页4-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-9.jpg"; sourceTree = "<group>"; };
+		8FBFBC7E2C5E05890042FA0A /* 详情页4-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页4-10.jpg"; sourceTree = "<group>"; };
+		8FBFBC802C5E05890042FA0A /* 商品主图5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图5.jpg"; sourceTree = "<group>"; };
+		8FBFBC822C5E05890042FA0A /* 商品主图6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图6.jpg"; sourceTree = "<group>"; };
+		8FBFBC842C5E05890042FA0A /* 商品主图7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图7.jpg"; sourceTree = "<group>"; };
+		8FBFBC862C5E05890042FA0A /* 商品主图8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图8.jpg"; sourceTree = "<group>"; };
+		8FBFBC882C5E05890042FA0A /* 商品主图9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图9.jpg"; sourceTree = "<group>"; };
+		8FBFBC8A2C5E05890042FA0A /* 商品主图10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图10.jpg"; sourceTree = "<group>"; };
+		8FBFBC8C2C5E05890042FA0A /* 商品主图11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图11.jpg"; sourceTree = "<group>"; };
+		8FBFBC8E2C5E05890042FA0A /* 商品主图 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图 12.jpg"; sourceTree = "<group>"; };
+		8FBFBC902C5E05890042FA0A /* 商品主图13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图13.jpg"; sourceTree = "<group>"; };
+		8FBFBC922C5E05890042FA0A /* 商品主图14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图14.jpg"; sourceTree = "<group>"; };
+		8FBFBC942C5E05890042FA0A /* 商品主图15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图15.jpg"; sourceTree = "<group>"; };
+		8FBFBC962C5E05890042FA0A /* 商品主图16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图16.jpg"; sourceTree = "<group>"; };
+		8FBFBC982C5E05890042FA0A /* 商品主图17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图17.jpg"; sourceTree = "<group>"; };
+		8FBFBC9A2C5E05890042FA0A /* 商品主图18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图18.jpg"; sourceTree = "<group>"; };
+		8FBFBC9C2C5E05890042FA0A /* 商品主图19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图19.jpg"; sourceTree = "<group>"; };
+		8FBFBC9E2C5E05890042FA0A /* 商品主图20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图20.jpg"; sourceTree = "<group>"; };
+		8FBFBCA02C5E05890042FA0A /* 商品主图21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图21.jpg"; sourceTree = "<group>"; };
+		8FBFBCA12C5E05890042FA0A /* 详情页21-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页21-1.jpg"; sourceTree = "<group>"; };
+		8FBFBCA22C5E05890042FA0A /* 详情页21-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页21-2.jpg"; sourceTree = "<group>"; };
+		8FBFBCA32C5E05890042FA0A /* 详情页21-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页21-3.jpg"; sourceTree = "<group>"; };
+		8FBFBCA42C5E05890042FA0A /* 详情页21-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页21-4.jpg"; sourceTree = "<group>"; };
+		8FBFBCA52C5E05890042FA0A /* 详情页21-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页21-5.jpg"; sourceTree = "<group>"; };
+		8FBFBCA62C5E05890042FA0A /* 详情页21-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页21-6.jpg"; sourceTree = "<group>"; };
+		8FBFBCA72C5E05890042FA0A /* 详情页21-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页21-7.jpg"; sourceTree = "<group>"; };
+		8FBFBCA82C5E05890042FA0A /* 详情页21-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页21-8.jpg"; sourceTree = "<group>"; };
+		8FBFBCAA2C5E05890042FA0A /* 商品主图22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图22.jpg"; sourceTree = "<group>"; };
+		8FBFBCAB2C5E05890042FA0A /* 详情页22-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-1.jpg"; sourceTree = "<group>"; };
+		8FBFBCAC2C5E05890042FA0A /* 详情页22-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-2.jpg"; sourceTree = "<group>"; };
+		8FBFBCAD2C5E05890042FA0A /* 详情页22-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-3.jpg"; sourceTree = "<group>"; };
+		8FBFBCAE2C5E05890042FA0A /* 详情页22-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-4.jpg"; sourceTree = "<group>"; };
+		8FBFBCAF2C5E05890042FA0A /* 详情页22-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-5.jpg"; sourceTree = "<group>"; };
+		8FBFBCB02C5E05890042FA0A /* 详情页22-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-6.jpg"; sourceTree = "<group>"; };
+		8FBFBCB12C5E05890042FA0A /* 详情页22-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-7.jpg"; sourceTree = "<group>"; };
+		8FBFBCB22C5E05890042FA0A /* 详情页22-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-8.jpg"; sourceTree = "<group>"; };
+		8FBFBCB32C5E05890042FA0A /* 详情页22-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-9.jpg"; sourceTree = "<group>"; };
+		8FBFBCB42C5E05890042FA0A /* 详情页22-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-10.jpg"; sourceTree = "<group>"; };
+		8FBFBCB52C5E05890042FA0A /* 详情页22-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-11.jpg"; sourceTree = "<group>"; };
+		8FBFBCB62C5E05890042FA0A /* 详情页22-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-12.jpg"; sourceTree = "<group>"; };
+		8FBFBCB72C5E05890042FA0A /* 详情页22-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-13.jpg"; sourceTree = "<group>"; };
+		8FBFBCB82C5E05890042FA0A /* 详情页22-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-14.jpg"; sourceTree = "<group>"; };
+		8FBFBCB92C5E05890042FA0A /* 详情页22-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页22-15.jpg"; sourceTree = "<group>"; };
+		8FBFBCBB2C5E05890042FA0A /* 商品主图23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图23.jpg"; sourceTree = "<group>"; };
+		8FBFBCBC2C5E05890042FA0A /* 详情页23-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页23-1.jpg"; sourceTree = "<group>"; };
+		8FBFBCBD2C5E05890042FA0A /* 详情页23-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页23-2.jpg"; sourceTree = "<group>"; };
+		8FBFBCBE2C5E05890042FA0A /* 详情页23-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页23-3.jpg"; sourceTree = "<group>"; };
+		8FBFBCBF2C5E05890042FA0A /* 详情页23-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页23-4.jpg"; sourceTree = "<group>"; };
+		8FBFBCC02C5E05890042FA0A /* 详情页23-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页23-5.jpg"; sourceTree = "<group>"; };
+		8FBFBCC22C5E05890042FA0A /* 商品主图24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图24.jpg"; sourceTree = "<group>"; };
+		8FBFBCC32C5E05890042FA0A /* 详情页24-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-1.jpg"; sourceTree = "<group>"; };
+		8FBFBCC42C5E05890042FA0A /* 详情页24-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-2.jpg"; sourceTree = "<group>"; };
+		8FBFBCC52C5E05890042FA0A /* 详情页24-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-3.jpg"; sourceTree = "<group>"; };
+		8FBFBCC62C5E05890042FA0A /* 详情页24-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-4.jpg"; sourceTree = "<group>"; };
+		8FBFBCC72C5E05890042FA0A /* 详情页24-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-5.jpg"; sourceTree = "<group>"; };
+		8FBFBCC82C5E05890042FA0A /* 详情页24-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-6.jpg"; sourceTree = "<group>"; };
+		8FBFBCC92C5E05890042FA0A /* 详情页24-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-7.jpg"; sourceTree = "<group>"; };
+		8FBFBCCA2C5E05890042FA0A /* 详情页24-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-8.jpg"; sourceTree = "<group>"; };
+		8FBFBCCB2C5E05890042FA0A /* 详情页24-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-9.jpg"; sourceTree = "<group>"; };
+		8FBFBCCC2C5E05890042FA0A /* 详情页24-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页24-10.jpg"; sourceTree = "<group>"; };
+		8FBFBCCE2C5E05890042FA0A /* 商品主图25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图25.jpg"; sourceTree = "<group>"; };
+		8FBFBCCF2C5E05890042FA0A /* 详情页25-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-1.jpg"; sourceTree = "<group>"; };
+		8FBFBCD02C5E05890042FA0A /* 详情页25-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-2.jpg"; sourceTree = "<group>"; };
+		8FBFBCD12C5E05890042FA0A /* 详情页25-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-3.jpg"; sourceTree = "<group>"; };
+		8FBFBCD22C5E05890042FA0A /* 详情页25-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-4.jpg"; sourceTree = "<group>"; };
+		8FBFBCD32C5E05890042FA0A /* 详情页25-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-5.jpg"; sourceTree = "<group>"; };
+		8FBFBCD42C5E05890042FA0A /* 详情页25-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-6.jpg"; sourceTree = "<group>"; };
+		8FBFBCD52C5E05890042FA0A /* 详情页25-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-7.jpg"; sourceTree = "<group>"; };
+		8FBFBCD62C5E05890042FA0A /* 详情页25-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-8.jpg"; sourceTree = "<group>"; };
+		8FBFBCD72C5E05890042FA0A /* 详情页25-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-9.jpg"; sourceTree = "<group>"; };
+		8FBFBCD82C5E05890042FA0A /* 详情页25-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页25-10.jpg"; sourceTree = "<group>"; };
+		8FBFBCDA2C5E05890042FA0A /* 商品主图26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图26.jpg"; sourceTree = "<group>"; };
+		8FBFBCDB2C5E05890042FA0A /* 详情页26-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-1.jpg"; sourceTree = "<group>"; };
+		8FBFBCDC2C5E05890042FA0A /* 详情页26-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-2.jpg"; sourceTree = "<group>"; };
+		8FBFBCDD2C5E05890042FA0A /* 详情页26-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-3.jpg"; sourceTree = "<group>"; };
+		8FBFBCDE2C5E05890042FA0A /* 详情页26-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-4.jpg"; sourceTree = "<group>"; };
+		8FBFBCDF2C5E05890042FA0A /* 详情页26-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-5.jpg"; sourceTree = "<group>"; };
+		8FBFBCE02C5E05890042FA0A /* 详情页26-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-6.jpg"; sourceTree = "<group>"; };
+		8FBFBCE12C5E05890042FA0A /* 详情页26-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-7.jpg"; sourceTree = "<group>"; };
+		8FBFBCE22C5E05890042FA0A /* 详情页26-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-8.jpg"; sourceTree = "<group>"; };
+		8FBFBCE32C5E05890042FA0A /* 详情页26-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-9.jpg"; sourceTree = "<group>"; };
+		8FBFBCE42C5E05890042FA0A /* 详情页26-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-10.jpg"; sourceTree = "<group>"; };
+		8FBFBCE52C5E05890042FA0A /* 详情页26-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页26-11.jpg"; sourceTree = "<group>"; };
+		8FBFBCE72C5E05890042FA0A /* 商品主图27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图27.jpg"; sourceTree = "<group>"; };
+		8FBFBCE82C5E05890042FA0A /* 详情页27-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-1.jpg"; sourceTree = "<group>"; };
+		8FBFBCE92C5E05890042FA0A /* 详情页27-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-2.jpg"; sourceTree = "<group>"; };
+		8FBFBCEA2C5E05890042FA0A /* 详情页27-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-3.jpg"; sourceTree = "<group>"; };
+		8FBFBCEB2C5E05890042FA0A /* 详情页27-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-4.jpg"; sourceTree = "<group>"; };
+		8FBFBCEC2C5E05890042FA0A /* 详情页27-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-5.jpg"; sourceTree = "<group>"; };
+		8FBFBCED2C5E05890042FA0A /* 详情页27-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-6.jpg"; sourceTree = "<group>"; };
+		8FBFBCEE2C5E05890042FA0A /* 详情页27-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-7.jpg"; sourceTree = "<group>"; };
+		8FBFBCEF2C5E05890042FA0A /* 详情页27-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-8.jpg"; sourceTree = "<group>"; };
+		8FBFBCF02C5E05890042FA0A /* 详情页27-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-9.jpg"; sourceTree = "<group>"; };
+		8FBFBCF12C5E05890042FA0A /* 详情页27-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-10.jpg"; sourceTree = "<group>"; };
+		8FBFBCF22C5E05890042FA0A /* 详情页27-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-11.jpg"; sourceTree = "<group>"; };
+		8FBFBCF32C5E05890042FA0A /* 详情页27-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页27-12.jpg"; sourceTree = "<group>"; };
+		8FBFBCF52C5E05890042FA0A /* 商品主图28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图28.jpg"; sourceTree = "<group>"; };
+		8FBFBCF62C5E05890042FA0A /* 详情页28-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页28-1.jpg"; sourceTree = "<group>"; };
+		8FBFBCF72C5E05890042FA0A /* 详情页28-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页28-2.jpg"; sourceTree = "<group>"; };
+		8FBFBCF82C5E05890042FA0A /* 详情页28-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页28-3.jpg"; sourceTree = "<group>"; };
+		8FBFBCF92C5E05890042FA0A /* 详情页28-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页28-4.jpg"; sourceTree = "<group>"; };
+		8FBFBCFA2C5E05890042FA0A /* 详情页28-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页28-5.jpg"; sourceTree = "<group>"; };
+		8FBFBCFB2C5E05890042FA0A /* 详情页28-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页28-6.jpg"; sourceTree = "<group>"; };
+		8FBFBCFC2C5E05890042FA0A /* 详情页28-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页28-7.jpg"; sourceTree = "<group>"; };
+		8FBFBCFD2C5E05890042FA0A /* 详情页28-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页28-8.jpg"; sourceTree = "<group>"; };
+		8FBFBCFF2C5E05890042FA0A /* 商品主图29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图29.jpg"; sourceTree = "<group>"; };
+		8FBFBD002C5E05890042FA0A /* 详情页29-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD012C5E05890042FA0A /* 详情页29-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD022C5E05890042FA0A /* 详情页29-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD032C5E05890042FA0A /* 详情页29-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD042C5E05890042FA0A /* 详情页29-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD052C5E05890042FA0A /* 详情页29-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD062C5E05890042FA0A /* 详情页29-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD072C5E05890042FA0A /* 详情页29-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD082C5E05890042FA0A /* 详情页29-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD092C5E05890042FA0A /* 详情页29-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-10.jpg"; sourceTree = "<group>"; };
+		8FBFBD0A2C5E05890042FA0A /* 详情页29-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-11.jpg"; sourceTree = "<group>"; };
+		8FBFBD0B2C5E05890042FA0A /* 详情页29-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-12.jpg"; sourceTree = "<group>"; };
+		8FBFBD0C2C5E05890042FA0A /* 详情页29-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页29-13.jpg"; sourceTree = "<group>"; };
+		8FBFBD0E2C5E05890042FA0A /* 商品主图30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图30.jpg"; sourceTree = "<group>"; };
+		8FBFBD0F2C5E05890042FA0A /* 详情页30-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD102C5E05890042FA0A /* 详情页30-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD112C5E05890042FA0A /* 详情页30-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD122C5E05890042FA0A /* 详情页30-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD132C5E05890042FA0A /* 详情页30-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD142C5E05890042FA0A /* 详情页30-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD152C5E05890042FA0A /* 详情页30-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD162C5E05890042FA0A /* 详情页30-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD172C5E05890042FA0A /* 详情页30-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD182C5E05890042FA0A /* 详情页30-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-10.jpg"; sourceTree = "<group>"; };
+		8FBFBD192C5E05890042FA0A /* 详情页30-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-11.jpg"; sourceTree = "<group>"; };
+		8FBFBD1A2C5E05890042FA0A /* 详情页30-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页30-12.jpg"; sourceTree = "<group>"; };
+		8FBFBD1C2C5E05890042FA0A /* 商品主图31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图31.jpg"; sourceTree = "<group>"; };
+		8FBFBD1D2C5E05890042FA0A /* 详情页31-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD1E2C5E05890042FA0A /* 详情页31-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD1F2C5E05890042FA0A /* 详情页31-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD202C5E05890042FA0A /* 详情页31-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD212C5E05890042FA0A /* 详情页31-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD222C5E05890042FA0A /* 详情页31-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD232C5E05890042FA0A /* 详情页31-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD242C5E05890042FA0A /* 详情页31-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD252C5E05890042FA0A /* 详情页31-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD262C5E05890042FA0A /* 详情页31-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-10.jpg"; sourceTree = "<group>"; };
+		8FBFBD272C5E05890042FA0A /* 详情页31-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-11.jpg"; sourceTree = "<group>"; };
+		8FBFBD282C5E05890042FA0A /* 详情页31-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页31-12.jpg"; sourceTree = "<group>"; };
+		8FBFBD2A2C5E05890042FA0A /* 商品主图32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图32.jpg"; sourceTree = "<group>"; };
+		8FBFBD2B2C5E05890042FA0A /* 详情页32-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD2C2C5E05890042FA0A /* 详情页32-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD2D2C5E05890042FA0A /* 详情页32-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD2E2C5E05890042FA0A /* 详情页32-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD2F2C5E05890042FA0A /* 详情页32-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD302C5E05890042FA0A /* 详情页32-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD312C5E05890042FA0A /* 详情页32-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD322C5E05890042FA0A /* 详情页32-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD332C5E05890042FA0A /* 详情页32-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD342C5E05890042FA0A /* 详情页32-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页32-11.jpg"; sourceTree = "<group>"; };
+		8FBFBD352C5E05890042FA0A /* 详情页132-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页132-0.jpg"; sourceTree = "<group>"; };
+		8FBFBD372C5E05890042FA0A /* 商品主图33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图33.jpg"; sourceTree = "<group>"; };
+		8FBFBD382C5E05890042FA0A /* 详情页33-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD392C5E05890042FA0A /* 详情页33-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD3A2C5E05890042FA0A /* 详情页33-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD3B2C5E05890042FA0A /* 详情页33-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD3C2C5E05890042FA0A /* 详情页33-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD3D2C5E05890042FA0A /* 详情页33-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD3E2C5E05890042FA0A /* 详情页33-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD3F2C5E05890042FA0A /* 详情页33-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD402C5E05890042FA0A /* 详情页33-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页33-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD422C5E05890042FA0A /* 商品主图34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图34.jpg"; sourceTree = "<group>"; };
+		8FBFBD432C5E05890042FA0A /* 详情页34-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD442C5E05890042FA0A /* 详情页34-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD452C5E05890042FA0A /* 详情页34-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD462C5E05890042FA0A /* 详情页34-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD472C5E05890042FA0A /* 详情页34-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD482C5E05890042FA0A /* 详情页34-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD492C5E05890042FA0A /* 详情页34-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD4A2C5E05890042FA0A /* 详情页34-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD4B2C5E05890042FA0A /* 详情页34-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页34-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD4D2C5E05890042FA0A /* 商品主图35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图35.jpg"; sourceTree = "<group>"; };
+		8FBFBD4E2C5E05890042FA0A /* 详情页35-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD4F2C5E05890042FA0A /* 详情页35-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD502C5E05890042FA0A /* 详情页35-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD512C5E05890042FA0A /* 详情页35-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD522C5E05890042FA0A /* 详情页35-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD532C5E05890042FA0A /* 详情页35-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD542C5E05890042FA0A /* 详情页35-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD552C5E05890042FA0A /* 详情页35-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD562C5E05890042FA0A /* 详情页35-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD572C5E05890042FA0A /* 详情页35-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页35-10.jpg"; sourceTree = "<group>"; };
+		8FBFBD592C5E05890042FA0A /* 商品主图36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图36.jpg"; sourceTree = "<group>"; };
+		8FBFBD5A2C5E05890042FA0A /* 详情页36-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD5B2C5E05890042FA0A /* 详情页36-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD5C2C5E05890042FA0A /* 详情页36-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD5D2C5E05890042FA0A /* 详情页36-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD5E2C5E05890042FA0A /* 详情页36-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD5F2C5E05890042FA0A /* 详情页36-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD602C5E05890042FA0A /* 详情页36-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD612C5E05890042FA0A /* 详情页36-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD622C5E05890042FA0A /* 详情页36-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD632C5E05890042FA0A /* 详情页36-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页36-10.jpg"; sourceTree = "<group>"; };
+		8FBFBD652C5E05890042FA0A /* 商品主图37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图37.jpg"; sourceTree = "<group>"; };
+		8FBFBD662C5E05890042FA0A /* 详情页37-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD672C5E05890042FA0A /* 详情页37-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD682C5E05890042FA0A /* 详情页37-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD692C5E05890042FA0A /* 详情页37-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD6A2C5E05890042FA0A /* 详情页37-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD6B2C5E05890042FA0A /* 详情页37-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD6C2C5E05890042FA0A /* 详情页37-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD6D2C5E05890042FA0A /* 详情页37-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD6E2C5E05890042FA0A /* 详情页37-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD6F2C5E05890042FA0A /* 详情页37-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页37-10.jpg"; sourceTree = "<group>"; };
+		8FBFBD712C5E05890042FA0A /* 商品主图38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图38.jpg"; sourceTree = "<group>"; };
+		8FBFBD722C5E05890042FA0A /* 详情页38-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD732C5E05890042FA0A /* 详情页38-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD742C5E05890042FA0A /* 详情页38-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD752C5E05890042FA0A /* 详情页38-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD762C5E05890042FA0A /* 详情页38-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD772C5E05890042FA0A /* 详情页38-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD782C5E05890042FA0A /* 详情页38-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD792C5E05890042FA0A /* 详情页38-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD7A2C5E05890042FA0A /* 详情页38-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD7B2C5E05890042FA0A /* 详情页38-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-10.jpg"; sourceTree = "<group>"; };
+		8FBFBD7C2C5E05890042FA0A /* 详情页38-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页38-11.jpg"; sourceTree = "<group>"; };
+		8FBFBD7E2C5E05890042FA0A /* 商品主39图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主39图.jpg"; sourceTree = "<group>"; };
+		8FBFBD7F2C5E05890042FA0A /* 详情页39-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页39-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD802C5E05890042FA0A /* 详情页39-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页39-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD812C5E05890042FA0A /* 详情页39-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页39-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD822C5E05890042FA0A /* 详情页39-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页39-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD832C5E05890042FA0A /* 详情页39-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页39-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD842C5E05890042FA0A /* 详情页39-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页39-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD852C5E05890042FA0A /* 详情页39-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页39-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD872C5E05890042FA0A /* 商品主图40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商品主图40.jpg"; sourceTree = "<group>"; };
+		8FBFBD882C5E05890042FA0A /* 详情页40-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-1.jpg"; sourceTree = "<group>"; };
+		8FBFBD892C5E05890042FA0A /* 详情页40-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-2.jpg"; sourceTree = "<group>"; };
+		8FBFBD8A2C5E05890042FA0A /* 详情页40-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-3.jpg"; sourceTree = "<group>"; };
+		8FBFBD8B2C5E05890042FA0A /* 详情页40-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-4.jpg"; sourceTree = "<group>"; };
+		8FBFBD8C2C5E05890042FA0A /* 详情页40-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-5.jpg"; sourceTree = "<group>"; };
+		8FBFBD8D2C5E05890042FA0A /* 详情页40-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-6.jpg"; sourceTree = "<group>"; };
+		8FBFBD8E2C5E05890042FA0A /* 详情页40-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-7.jpg"; sourceTree = "<group>"; };
+		8FBFBD8F2C5E05890042FA0A /* 详情页40-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-8.jpg"; sourceTree = "<group>"; };
+		8FBFBD902C5E05890042FA0A /* 详情页40-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-9.jpg"; sourceTree = "<group>"; };
+		8FBFBD912C5E05890042FA0A /* 详情页40-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-10.jpg"; sourceTree = "<group>"; };
+		8FBFBD922C5E05890042FA0A /* 详情页40-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "详情页40-11.jpg"; sourceTree = "<group>"; };
 		9684C34F95D748B02D0C8AF9 /* Pods-RentalGamingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGamingTests.release.xcconfig"; path = "Target Support Files/Pods-RentalGamingTests/Pods-RentalGamingTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC03783FAD5FC34F6CAEE9D8 /* Pods-RentalGaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGaming.release.xcconfig"; path = "Target Support Files/Pods-RentalGaming/Pods-RentalGaming.release.xcconfig"; sourceTree = "<group>"; };
 		B6403305375C022CFD1525B2 /* libPods-RentalGaming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RentalGaming.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +703,8 @@
 				8F7BC7402C5A3A8A00237A52 /* SceneDelegate.h */,
 				8F7BC7412C5A3A8A00237A52 /* SceneDelegate.m */,
 				8FBFB6ED2C5A63B00042FA0A /* PrefixHeader.pch */,
+				8FBFB77C2C5DF0860042FA0A /* Resources */,
+				8FBFB7782C5DD87D0042FA0A /* Detail */,
 				8FBFB71D2C5CFA5A0042FA0A /* Login */,
 				8FBFB6FE2C5BF3A00042FA0A /* Components */,
 				8FBFB6E82C5A60A50042FA0A /* Base */,
@@ -288,6 +806,8 @@
 		8FBFB6FE2C5BF3A00042FA0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8FBFB9F42C5DF3480042FA0A /* DataManager.h */,
+				8FBFB9F52C5DF3480042FA0A /* DataManager.m */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -324,6 +844,613 @@
 				8FBFB76A2C5D277B0042FA0A /* LoginTextField.m */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		8FBFB7782C5DD87D0042FA0A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFB7792C5DD88C0042FA0A /* DetailViewController.h */,
+				8FBFB77A2C5DD88C0042FA0A /* DetailViewController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		8FBFB77C2C5DF0860042FA0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD952C5E05890042FA0A /* pics */,
+				8FBFB8CC2C5DF0990042FA0A /* rent */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8FBFB8CC2C5DF0990042FA0A /* rent */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFB8CB2C5DF0990042FA0A /* rent.txt */,
+			);
+			path = rent;
+			sourceTree = "<group>";
+		};
+		8FBFBC6F2C5E05890042FA0A /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC6E2C5E05890042FA0A /* 商品主图1.jpg */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		8FBFBC712C5E05890042FA0A /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC702C5E05890042FA0A /* 商品主图2.jpg */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		8FBFBC732C5E05890042FA0A /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC722C5E05890042FA0A /* 商品主图3.jpg */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		8FBFBC7F2C5E05890042FA0A /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC742C5E05890042FA0A /* 商品主图4.jpg */,
+				8FBFBC752C5E05890042FA0A /* 详情页4-1.jpg */,
+				8FBFBC762C5E05890042FA0A /* 详情页4-2.jpg */,
+				8FBFBC772C5E05890042FA0A /* 详情页4-3.jpg */,
+				8FBFBC782C5E05890042FA0A /* 详情页4-4.jpg */,
+				8FBFBC792C5E05890042FA0A /* 详情页4-5.jpg */,
+				8FBFBC7A2C5E05890042FA0A /* 详情页4-6.jpg */,
+				8FBFBC7B2C5E05890042FA0A /* 详情页4-7.jpg */,
+				8FBFBC7C2C5E05890042FA0A /* 详情页4-8.jpg */,
+				8FBFBC7D2C5E05890042FA0A /* 详情页4-9.jpg */,
+				8FBFBC7E2C5E05890042FA0A /* 详情页4-10.jpg */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		8FBFBC812C5E05890042FA0A /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC802C5E05890042FA0A /* 商品主图5.jpg */,
+			);
+			path = 5;
+			sourceTree = "<group>";
+		};
+		8FBFBC832C5E05890042FA0A /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC822C5E05890042FA0A /* 商品主图6.jpg */,
+			);
+			path = 6;
+			sourceTree = "<group>";
+		};
+		8FBFBC852C5E05890042FA0A /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC842C5E05890042FA0A /* 商品主图7.jpg */,
+			);
+			path = 7;
+			sourceTree = "<group>";
+		};
+		8FBFBC872C5E05890042FA0A /* 8 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC862C5E05890042FA0A /* 商品主图8.jpg */,
+			);
+			path = 8;
+			sourceTree = "<group>";
+		};
+		8FBFBC892C5E05890042FA0A /* 9 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC882C5E05890042FA0A /* 商品主图9.jpg */,
+			);
+			path = 9;
+			sourceTree = "<group>";
+		};
+		8FBFBC8B2C5E05890042FA0A /* 10 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC8A2C5E05890042FA0A /* 商品主图10.jpg */,
+			);
+			path = 10;
+			sourceTree = "<group>";
+		};
+		8FBFBC8D2C5E05890042FA0A /* 11 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC8C2C5E05890042FA0A /* 商品主图11.jpg */,
+			);
+			path = 11;
+			sourceTree = "<group>";
+		};
+		8FBFBC8F2C5E05890042FA0A /* 12 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC8E2C5E05890042FA0A /* 商品主图 12.jpg */,
+			);
+			path = 12;
+			sourceTree = "<group>";
+		};
+		8FBFBC912C5E05890042FA0A /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC902C5E05890042FA0A /* 商品主图13.jpg */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		8FBFBC932C5E05890042FA0A /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC922C5E05890042FA0A /* 商品主图14.jpg */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		8FBFBC952C5E05890042FA0A /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC942C5E05890042FA0A /* 商品主图15.jpg */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		8FBFBC972C5E05890042FA0A /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC962C5E05890042FA0A /* 商品主图16.jpg */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		8FBFBC992C5E05890042FA0A /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC982C5E05890042FA0A /* 商品主图17.jpg */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		8FBFBC9B2C5E05890042FA0A /* 18 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC9A2C5E05890042FA0A /* 商品主图18.jpg */,
+			);
+			path = 18;
+			sourceTree = "<group>";
+		};
+		8FBFBC9D2C5E05890042FA0A /* 19 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC9C2C5E05890042FA0A /* 商品主图19.jpg */,
+			);
+			path = 19;
+			sourceTree = "<group>";
+		};
+		8FBFBC9F2C5E05890042FA0A /* 20 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC9E2C5E05890042FA0A /* 商品主图20.jpg */,
+			);
+			path = 20;
+			sourceTree = "<group>";
+		};
+		8FBFBCA92C5E05890042FA0A /* 21 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCA02C5E05890042FA0A /* 商品主图21.jpg */,
+				8FBFBCA12C5E05890042FA0A /* 详情页21-1.jpg */,
+				8FBFBCA22C5E05890042FA0A /* 详情页21-2.jpg */,
+				8FBFBCA32C5E05890042FA0A /* 详情页21-3.jpg */,
+				8FBFBCA42C5E05890042FA0A /* 详情页21-4.jpg */,
+				8FBFBCA52C5E05890042FA0A /* 详情页21-5.jpg */,
+				8FBFBCA62C5E05890042FA0A /* 详情页21-6.jpg */,
+				8FBFBCA72C5E05890042FA0A /* 详情页21-7.jpg */,
+				8FBFBCA82C5E05890042FA0A /* 详情页21-8.jpg */,
+			);
+			path = 21;
+			sourceTree = "<group>";
+		};
+		8FBFBCBA2C5E05890042FA0A /* 22 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCAA2C5E05890042FA0A /* 商品主图22.jpg */,
+				8FBFBCAB2C5E05890042FA0A /* 详情页22-1.jpg */,
+				8FBFBCAC2C5E05890042FA0A /* 详情页22-2.jpg */,
+				8FBFBCAD2C5E05890042FA0A /* 详情页22-3.jpg */,
+				8FBFBCAE2C5E05890042FA0A /* 详情页22-4.jpg */,
+				8FBFBCAF2C5E05890042FA0A /* 详情页22-5.jpg */,
+				8FBFBCB02C5E05890042FA0A /* 详情页22-6.jpg */,
+				8FBFBCB12C5E05890042FA0A /* 详情页22-7.jpg */,
+				8FBFBCB22C5E05890042FA0A /* 详情页22-8.jpg */,
+				8FBFBCB32C5E05890042FA0A /* 详情页22-9.jpg */,
+				8FBFBCB42C5E05890042FA0A /* 详情页22-10.jpg */,
+				8FBFBCB52C5E05890042FA0A /* 详情页22-11.jpg */,
+				8FBFBCB62C5E05890042FA0A /* 详情页22-12.jpg */,
+				8FBFBCB72C5E05890042FA0A /* 详情页22-13.jpg */,
+				8FBFBCB82C5E05890042FA0A /* 详情页22-14.jpg */,
+				8FBFBCB92C5E05890042FA0A /* 详情页22-15.jpg */,
+			);
+			path = 22;
+			sourceTree = "<group>";
+		};
+		8FBFBCC12C5E05890042FA0A /* 23 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCBB2C5E05890042FA0A /* 商品主图23.jpg */,
+				8FBFBCBC2C5E05890042FA0A /* 详情页23-1.jpg */,
+				8FBFBCBD2C5E05890042FA0A /* 详情页23-2.jpg */,
+				8FBFBCBE2C5E05890042FA0A /* 详情页23-3.jpg */,
+				8FBFBCBF2C5E05890042FA0A /* 详情页23-4.jpg */,
+				8FBFBCC02C5E05890042FA0A /* 详情页23-5.jpg */,
+			);
+			path = 23;
+			sourceTree = "<group>";
+		};
+		8FBFBCCD2C5E05890042FA0A /* 24 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCC22C5E05890042FA0A /* 商品主图24.jpg */,
+				8FBFBCC32C5E05890042FA0A /* 详情页24-1.jpg */,
+				8FBFBCC42C5E05890042FA0A /* 详情页24-2.jpg */,
+				8FBFBCC52C5E05890042FA0A /* 详情页24-3.jpg */,
+				8FBFBCC62C5E05890042FA0A /* 详情页24-4.jpg */,
+				8FBFBCC72C5E05890042FA0A /* 详情页24-5.jpg */,
+				8FBFBCC82C5E05890042FA0A /* 详情页24-6.jpg */,
+				8FBFBCC92C5E05890042FA0A /* 详情页24-7.jpg */,
+				8FBFBCCA2C5E05890042FA0A /* 详情页24-8.jpg */,
+				8FBFBCCB2C5E05890042FA0A /* 详情页24-9.jpg */,
+				8FBFBCCC2C5E05890042FA0A /* 详情页24-10.jpg */,
+			);
+			path = 24;
+			sourceTree = "<group>";
+		};
+		8FBFBCD92C5E05890042FA0A /* 25 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCCE2C5E05890042FA0A /* 商品主图25.jpg */,
+				8FBFBCCF2C5E05890042FA0A /* 详情页25-1.jpg */,
+				8FBFBCD02C5E05890042FA0A /* 详情页25-2.jpg */,
+				8FBFBCD12C5E05890042FA0A /* 详情页25-3.jpg */,
+				8FBFBCD22C5E05890042FA0A /* 详情页25-4.jpg */,
+				8FBFBCD32C5E05890042FA0A /* 详情页25-5.jpg */,
+				8FBFBCD42C5E05890042FA0A /* 详情页25-6.jpg */,
+				8FBFBCD52C5E05890042FA0A /* 详情页25-7.jpg */,
+				8FBFBCD62C5E05890042FA0A /* 详情页25-8.jpg */,
+				8FBFBCD72C5E05890042FA0A /* 详情页25-9.jpg */,
+				8FBFBCD82C5E05890042FA0A /* 详情页25-10.jpg */,
+			);
+			path = 25;
+			sourceTree = "<group>";
+		};
+		8FBFBCE62C5E05890042FA0A /* 26 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCDA2C5E05890042FA0A /* 商品主图26.jpg */,
+				8FBFBCDB2C5E05890042FA0A /* 详情页26-1.jpg */,
+				8FBFBCDC2C5E05890042FA0A /* 详情页26-2.jpg */,
+				8FBFBCDD2C5E05890042FA0A /* 详情页26-3.jpg */,
+				8FBFBCDE2C5E05890042FA0A /* 详情页26-4.jpg */,
+				8FBFBCDF2C5E05890042FA0A /* 详情页26-5.jpg */,
+				8FBFBCE02C5E05890042FA0A /* 详情页26-6.jpg */,
+				8FBFBCE12C5E05890042FA0A /* 详情页26-7.jpg */,
+				8FBFBCE22C5E05890042FA0A /* 详情页26-8.jpg */,
+				8FBFBCE32C5E05890042FA0A /* 详情页26-9.jpg */,
+				8FBFBCE42C5E05890042FA0A /* 详情页26-10.jpg */,
+				8FBFBCE52C5E05890042FA0A /* 详情页26-11.jpg */,
+			);
+			path = 26;
+			sourceTree = "<group>";
+		};
+		8FBFBCF42C5E05890042FA0A /* 27 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCE72C5E05890042FA0A /* 商品主图27.jpg */,
+				8FBFBCE82C5E05890042FA0A /* 详情页27-1.jpg */,
+				8FBFBCE92C5E05890042FA0A /* 详情页27-2.jpg */,
+				8FBFBCEA2C5E05890042FA0A /* 详情页27-3.jpg */,
+				8FBFBCEB2C5E05890042FA0A /* 详情页27-4.jpg */,
+				8FBFBCEC2C5E05890042FA0A /* 详情页27-5.jpg */,
+				8FBFBCED2C5E05890042FA0A /* 详情页27-6.jpg */,
+				8FBFBCEE2C5E05890042FA0A /* 详情页27-7.jpg */,
+				8FBFBCEF2C5E05890042FA0A /* 详情页27-8.jpg */,
+				8FBFBCF02C5E05890042FA0A /* 详情页27-9.jpg */,
+				8FBFBCF12C5E05890042FA0A /* 详情页27-10.jpg */,
+				8FBFBCF22C5E05890042FA0A /* 详情页27-11.jpg */,
+				8FBFBCF32C5E05890042FA0A /* 详情页27-12.jpg */,
+			);
+			path = 27;
+			sourceTree = "<group>";
+		};
+		8FBFBCFE2C5E05890042FA0A /* 28 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCF52C5E05890042FA0A /* 商品主图28.jpg */,
+				8FBFBCF62C5E05890042FA0A /* 详情页28-1.jpg */,
+				8FBFBCF72C5E05890042FA0A /* 详情页28-2.jpg */,
+				8FBFBCF82C5E05890042FA0A /* 详情页28-3.jpg */,
+				8FBFBCF92C5E05890042FA0A /* 详情页28-4.jpg */,
+				8FBFBCFA2C5E05890042FA0A /* 详情页28-5.jpg */,
+				8FBFBCFB2C5E05890042FA0A /* 详情页28-6.jpg */,
+				8FBFBCFC2C5E05890042FA0A /* 详情页28-7.jpg */,
+				8FBFBCFD2C5E05890042FA0A /* 详情页28-8.jpg */,
+			);
+			path = 28;
+			sourceTree = "<group>";
+		};
+		8FBFBD0D2C5E05890042FA0A /* 29 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBCFF2C5E05890042FA0A /* 商品主图29.jpg */,
+				8FBFBD002C5E05890042FA0A /* 详情页29-1.jpg */,
+				8FBFBD012C5E05890042FA0A /* 详情页29-2.jpg */,
+				8FBFBD022C5E05890042FA0A /* 详情页29-3.jpg */,
+				8FBFBD032C5E05890042FA0A /* 详情页29-4.jpg */,
+				8FBFBD042C5E05890042FA0A /* 详情页29-5.jpg */,
+				8FBFBD052C5E05890042FA0A /* 详情页29-6.jpg */,
+				8FBFBD062C5E05890042FA0A /* 详情页29-7.jpg */,
+				8FBFBD072C5E05890042FA0A /* 详情页29-8.jpg */,
+				8FBFBD082C5E05890042FA0A /* 详情页29-9.jpg */,
+				8FBFBD092C5E05890042FA0A /* 详情页29-10.jpg */,
+				8FBFBD0A2C5E05890042FA0A /* 详情页29-11.jpg */,
+				8FBFBD0B2C5E05890042FA0A /* 详情页29-12.jpg */,
+				8FBFBD0C2C5E05890042FA0A /* 详情页29-13.jpg */,
+			);
+			path = 29;
+			sourceTree = "<group>";
+		};
+		8FBFBD1B2C5E05890042FA0A /* 30 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD0E2C5E05890042FA0A /* 商品主图30.jpg */,
+				8FBFBD0F2C5E05890042FA0A /* 详情页30-1.jpg */,
+				8FBFBD102C5E05890042FA0A /* 详情页30-2.jpg */,
+				8FBFBD112C5E05890042FA0A /* 详情页30-3.jpg */,
+				8FBFBD122C5E05890042FA0A /* 详情页30-4.jpg */,
+				8FBFBD132C5E05890042FA0A /* 详情页30-5.jpg */,
+				8FBFBD142C5E05890042FA0A /* 详情页30-6.jpg */,
+				8FBFBD152C5E05890042FA0A /* 详情页30-7.jpg */,
+				8FBFBD162C5E05890042FA0A /* 详情页30-8.jpg */,
+				8FBFBD172C5E05890042FA0A /* 详情页30-9.jpg */,
+				8FBFBD182C5E05890042FA0A /* 详情页30-10.jpg */,
+				8FBFBD192C5E05890042FA0A /* 详情页30-11.jpg */,
+				8FBFBD1A2C5E05890042FA0A /* 详情页30-12.jpg */,
+			);
+			path = 30;
+			sourceTree = "<group>";
+		};
+		8FBFBD292C5E05890042FA0A /* 31 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD1C2C5E05890042FA0A /* 商品主图31.jpg */,
+				8FBFBD1D2C5E05890042FA0A /* 详情页31-1.jpg */,
+				8FBFBD1E2C5E05890042FA0A /* 详情页31-2.jpg */,
+				8FBFBD1F2C5E05890042FA0A /* 详情页31-3.jpg */,
+				8FBFBD202C5E05890042FA0A /* 详情页31-4.jpg */,
+				8FBFBD212C5E05890042FA0A /* 详情页31-5.jpg */,
+				8FBFBD222C5E05890042FA0A /* 详情页31-6.jpg */,
+				8FBFBD232C5E05890042FA0A /* 详情页31-7.jpg */,
+				8FBFBD242C5E05890042FA0A /* 详情页31-8.jpg */,
+				8FBFBD252C5E05890042FA0A /* 详情页31-9.jpg */,
+				8FBFBD262C5E05890042FA0A /* 详情页31-10.jpg */,
+				8FBFBD272C5E05890042FA0A /* 详情页31-11.jpg */,
+				8FBFBD282C5E05890042FA0A /* 详情页31-12.jpg */,
+			);
+			path = 31;
+			sourceTree = "<group>";
+		};
+		8FBFBD362C5E05890042FA0A /* 32 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD2A2C5E05890042FA0A /* 商品主图32.jpg */,
+				8FBFBD2B2C5E05890042FA0A /* 详情页32-1.jpg */,
+				8FBFBD2C2C5E05890042FA0A /* 详情页32-2.jpg */,
+				8FBFBD2D2C5E05890042FA0A /* 详情页32-3.jpg */,
+				8FBFBD2E2C5E05890042FA0A /* 详情页32-4.jpg */,
+				8FBFBD2F2C5E05890042FA0A /* 详情页32-5.jpg */,
+				8FBFBD302C5E05890042FA0A /* 详情页32-6.jpg */,
+				8FBFBD312C5E05890042FA0A /* 详情页32-7.jpg */,
+				8FBFBD322C5E05890042FA0A /* 详情页32-8.jpg */,
+				8FBFBD332C5E05890042FA0A /* 详情页32-9.jpg */,
+				8FBFBD342C5E05890042FA0A /* 详情页32-11.jpg */,
+				8FBFBD352C5E05890042FA0A /* 详情页132-0.jpg */,
+			);
+			path = 32;
+			sourceTree = "<group>";
+		};
+		8FBFBD412C5E05890042FA0A /* 33 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD372C5E05890042FA0A /* 商品主图33.jpg */,
+				8FBFBD382C5E05890042FA0A /* 详情页33-1.jpg */,
+				8FBFBD392C5E05890042FA0A /* 详情页33-2.jpg */,
+				8FBFBD3A2C5E05890042FA0A /* 详情页33-3.jpg */,
+				8FBFBD3B2C5E05890042FA0A /* 详情页33-4.jpg */,
+				8FBFBD3C2C5E05890042FA0A /* 详情页33-5.jpg */,
+				8FBFBD3D2C5E05890042FA0A /* 详情页33-6.jpg */,
+				8FBFBD3E2C5E05890042FA0A /* 详情页33-7.jpg */,
+				8FBFBD3F2C5E05890042FA0A /* 详情页33-8.jpg */,
+				8FBFBD402C5E05890042FA0A /* 详情页33-9.jpg */,
+			);
+			path = 33;
+			sourceTree = "<group>";
+		};
+		8FBFBD4C2C5E05890042FA0A /* 34 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD422C5E05890042FA0A /* 商品主图34.jpg */,
+				8FBFBD432C5E05890042FA0A /* 详情页34-1.jpg */,
+				8FBFBD442C5E05890042FA0A /* 详情页34-2.jpg */,
+				8FBFBD452C5E05890042FA0A /* 详情页34-3.jpg */,
+				8FBFBD462C5E05890042FA0A /* 详情页34-4.jpg */,
+				8FBFBD472C5E05890042FA0A /* 详情页34-5.jpg */,
+				8FBFBD482C5E05890042FA0A /* 详情页34-6.jpg */,
+				8FBFBD492C5E05890042FA0A /* 详情页34-7.jpg */,
+				8FBFBD4A2C5E05890042FA0A /* 详情页34-8.jpg */,
+				8FBFBD4B2C5E05890042FA0A /* 详情页34-9.jpg */,
+			);
+			path = 34;
+			sourceTree = "<group>";
+		};
+		8FBFBD582C5E05890042FA0A /* 35 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD4D2C5E05890042FA0A /* 商品主图35.jpg */,
+				8FBFBD4E2C5E05890042FA0A /* 详情页35-1.jpg */,
+				8FBFBD4F2C5E05890042FA0A /* 详情页35-2.jpg */,
+				8FBFBD502C5E05890042FA0A /* 详情页35-3.jpg */,
+				8FBFBD512C5E05890042FA0A /* 详情页35-4.jpg */,
+				8FBFBD522C5E05890042FA0A /* 详情页35-5.jpg */,
+				8FBFBD532C5E05890042FA0A /* 详情页35-6.jpg */,
+				8FBFBD542C5E05890042FA0A /* 详情页35-7.jpg */,
+				8FBFBD552C5E05890042FA0A /* 详情页35-8.jpg */,
+				8FBFBD562C5E05890042FA0A /* 详情页35-9.jpg */,
+				8FBFBD572C5E05890042FA0A /* 详情页35-10.jpg */,
+			);
+			path = 35;
+			sourceTree = "<group>";
+		};
+		8FBFBD642C5E05890042FA0A /* 36 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD592C5E05890042FA0A /* 商品主图36.jpg */,
+				8FBFBD5A2C5E05890042FA0A /* 详情页36-1.jpg */,
+				8FBFBD5B2C5E05890042FA0A /* 详情页36-2.jpg */,
+				8FBFBD5C2C5E05890042FA0A /* 详情页36-3.jpg */,
+				8FBFBD5D2C5E05890042FA0A /* 详情页36-4.jpg */,
+				8FBFBD5E2C5E05890042FA0A /* 详情页36-5.jpg */,
+				8FBFBD5F2C5E05890042FA0A /* 详情页36-6.jpg */,
+				8FBFBD602C5E05890042FA0A /* 详情页36-7.jpg */,
+				8FBFBD612C5E05890042FA0A /* 详情页36-8.jpg */,
+				8FBFBD622C5E05890042FA0A /* 详情页36-9.jpg */,
+				8FBFBD632C5E05890042FA0A /* 详情页36-10.jpg */,
+			);
+			path = 36;
+			sourceTree = "<group>";
+		};
+		8FBFBD702C5E05890042FA0A /* 37 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD652C5E05890042FA0A /* 商品主图37.jpg */,
+				8FBFBD662C5E05890042FA0A /* 详情页37-1.jpg */,
+				8FBFBD672C5E05890042FA0A /* 详情页37-2.jpg */,
+				8FBFBD682C5E05890042FA0A /* 详情页37-3.jpg */,
+				8FBFBD692C5E05890042FA0A /* 详情页37-4.jpg */,
+				8FBFBD6A2C5E05890042FA0A /* 详情页37-5.jpg */,
+				8FBFBD6B2C5E05890042FA0A /* 详情页37-6.jpg */,
+				8FBFBD6C2C5E05890042FA0A /* 详情页37-7.jpg */,
+				8FBFBD6D2C5E05890042FA0A /* 详情页37-8.jpg */,
+				8FBFBD6E2C5E05890042FA0A /* 详情页37-9.jpg */,
+				8FBFBD6F2C5E05890042FA0A /* 详情页37-10.jpg */,
+			);
+			path = 37;
+			sourceTree = "<group>";
+		};
+		8FBFBD7D2C5E05890042FA0A /* 38 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD712C5E05890042FA0A /* 商品主图38.jpg */,
+				8FBFBD722C5E05890042FA0A /* 详情页38-1.jpg */,
+				8FBFBD732C5E05890042FA0A /* 详情页38-2.jpg */,
+				8FBFBD742C5E05890042FA0A /* 详情页38-3.jpg */,
+				8FBFBD752C5E05890042FA0A /* 详情页38-4.jpg */,
+				8FBFBD762C5E05890042FA0A /* 详情页38-5.jpg */,
+				8FBFBD772C5E05890042FA0A /* 详情页38-6.jpg */,
+				8FBFBD782C5E05890042FA0A /* 详情页38-7.jpg */,
+				8FBFBD792C5E05890042FA0A /* 详情页38-8.jpg */,
+				8FBFBD7A2C5E05890042FA0A /* 详情页38-9.jpg */,
+				8FBFBD7B2C5E05890042FA0A /* 详情页38-10.jpg */,
+				8FBFBD7C2C5E05890042FA0A /* 详情页38-11.jpg */,
+			);
+			path = 38;
+			sourceTree = "<group>";
+		};
+		8FBFBD862C5E05890042FA0A /* 39 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD7E2C5E05890042FA0A /* 商品主39图.jpg */,
+				8FBFBD7F2C5E05890042FA0A /* 详情页39-1.jpg */,
+				8FBFBD802C5E05890042FA0A /* 详情页39-2.jpg */,
+				8FBFBD812C5E05890042FA0A /* 详情页39-3.jpg */,
+				8FBFBD822C5E05890042FA0A /* 详情页39-4.jpg */,
+				8FBFBD832C5E05890042FA0A /* 详情页39-5.jpg */,
+				8FBFBD842C5E05890042FA0A /* 详情页39-6.jpg */,
+				8FBFBD852C5E05890042FA0A /* 详情页39-7.jpg */,
+			);
+			path = 39;
+			sourceTree = "<group>";
+		};
+		8FBFBD932C5E05890042FA0A /* 40 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBD872C5E05890042FA0A /* 商品主图40.jpg */,
+				8FBFBD882C5E05890042FA0A /* 详情页40-1.jpg */,
+				8FBFBD892C5E05890042FA0A /* 详情页40-2.jpg */,
+				8FBFBD8A2C5E05890042FA0A /* 详情页40-3.jpg */,
+				8FBFBD8B2C5E05890042FA0A /* 详情页40-4.jpg */,
+				8FBFBD8C2C5E05890042FA0A /* 详情页40-5.jpg */,
+				8FBFBD8D2C5E05890042FA0A /* 详情页40-6.jpg */,
+				8FBFBD8E2C5E05890042FA0A /* 详情页40-7.jpg */,
+				8FBFBD8F2C5E05890042FA0A /* 详情页40-8.jpg */,
+				8FBFBD902C5E05890042FA0A /* 详情页40-9.jpg */,
+				8FBFBD912C5E05890042FA0A /* 详情页40-10.jpg */,
+				8FBFBD922C5E05890042FA0A /* 详情页40-11.jpg */,
+			);
+			path = 40;
+			sourceTree = "<group>";
+		};
+		8FBFBD952C5E05890042FA0A /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFBC6F2C5E05890042FA0A /* 1 */,
+				8FBFBC712C5E05890042FA0A /* 2 */,
+				8FBFBC732C5E05890042FA0A /* 3 */,
+				8FBFBC7F2C5E05890042FA0A /* 4 */,
+				8FBFBC812C5E05890042FA0A /* 5 */,
+				8FBFBC832C5E05890042FA0A /* 6 */,
+				8FBFBC852C5E05890042FA0A /* 7 */,
+				8FBFBC872C5E05890042FA0A /* 8 */,
+				8FBFBC892C5E05890042FA0A /* 9 */,
+				8FBFBC8B2C5E05890042FA0A /* 10 */,
+				8FBFBC8D2C5E05890042FA0A /* 11 */,
+				8FBFBC8F2C5E05890042FA0A /* 12 */,
+				8FBFBC912C5E05890042FA0A /* 13 */,
+				8FBFBC932C5E05890042FA0A /* 14 */,
+				8FBFBC952C5E05890042FA0A /* 15 */,
+				8FBFBC972C5E05890042FA0A /* 16 */,
+				8FBFBC992C5E05890042FA0A /* 17 */,
+				8FBFBC9B2C5E05890042FA0A /* 18 */,
+				8FBFBC9D2C5E05890042FA0A /* 19 */,
+				8FBFBC9F2C5E05890042FA0A /* 20 */,
+				8FBFBCA92C5E05890042FA0A /* 21 */,
+				8FBFBCBA2C5E05890042FA0A /* 22 */,
+				8FBFBCC12C5E05890042FA0A /* 23 */,
+				8FBFBCCD2C5E05890042FA0A /* 24 */,
+				8FBFBCD92C5E05890042FA0A /* 25 */,
+				8FBFBCE62C5E05890042FA0A /* 26 */,
+				8FBFBCF42C5E05890042FA0A /* 27 */,
+				8FBFBCFE2C5E05890042FA0A /* 28 */,
+				8FBFBD0D2C5E05890042FA0A /* 29 */,
+				8FBFBD1B2C5E05890042FA0A /* 30 */,
+				8FBFBD292C5E05890042FA0A /* 31 */,
+				8FBFBD362C5E05890042FA0A /* 32 */,
+				8FBFBD412C5E05890042FA0A /* 33 */,
+				8FBFBD4C2C5E05890042FA0A /* 34 */,
+				8FBFBD582C5E05890042FA0A /* 35 */,
+				8FBFBD642C5E05890042FA0A /* 36 */,
+				8FBFBD702C5E05890042FA0A /* 37 */,
+				8FBFBD7D2C5E05890042FA0A /* 38 */,
+				8FBFBD862C5E05890042FA0A /* 39 */,
+				8FBFBD932C5E05890042FA0A /* 40 */,
+			);
+			path = pics;
 			sourceTree = "<group>";
 		};
 		EFB95E10F955680FDB989A65 /* Frameworks */ = {
@@ -444,10 +1571,265 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBFBDEF2C5E058A0042FA0A /* 详情页26-6.jpg in Resources */,
+				8FBFBDA52C5E058A0042FA0A /* 商品主图6.jpg in Resources */,
+				8FBFBDD32C5E058A0042FA0A /* 商品主图24.jpg in Resources */,
+				8FBFBDFE2C5E058A0042FA0A /* 详情页27-9.jpg in Resources */,
+				8FBFBE232C5E058A0042FA0A /* 详情页30-10.jpg in Resources */,
+				8FBFBE802C5E058A0042FA0A /* 商品主39图.jpg in Resources */,
+				8FBFBE3F2C5E058A0042FA0A /* 商品主图33.jpg in Resources */,
+				8FBFBE3A2C5E058A0042FA0A /* 详情页32-7.jpg in Resources */,
+				8FBFBDC92C5E058A0042FA0A /* 详情页22-12.jpg in Resources */,
+				8FBFBE792C5E058A0042FA0A /* 详情页38-5.jpg in Resources */,
+				8FBFBDB22C5E058A0042FA0A /* 商品主图19.jpg in Resources */,
+				8FBFBE6B2C5E058A0042FA0A /* 详情页37-2.jpg in Resources */,
+				8FBFBE4D2C5E058A0042FA0A /* 详情页34-4.jpg in Resources */,
+				8FBFBE4A2C5E058A0042FA0A /* 详情页34-1.jpg in Resources */,
+				8FBFBDE32C5E058A0042FA0A /* 详情页25-5.jpg in Resources */,
+				8FBFBE622C5E058A0042FA0A /* 详情页36-4.jpg in Resources */,
+				8FBFBE042C5E058A0042FA0A /* 详情页28-2.jpg in Resources */,
+				8FBFBE382C5E058A0042FA0A /* 详情页32-5.jpg in Resources */,
+				8FBFBE8F2C5E058A0042FA0A /* 详情页40-7.jpg in Resources */,
+				8FBFBE032C5E058A0042FA0A /* 详情页28-1.jpg in Resources */,
+				8FBFBDF02C5E058A0042FA0A /* 详情页26-7.jpg in Resources */,
+				8FBFBE5E2C5E058A0042FA0A /* 商品主图36.jpg in Resources */,
+				8FBFBDB02C5E058A0042FA0A /* 商品主图17.jpg in Resources */,
+				8FBFBE492C5E058A0042FA0A /* 商品主图34.jpg in Resources */,
+				8FBFBDAC2C5E058A0042FA0A /* 商品主图13.jpg in Resources */,
 				8FBFB7222C5CFA720042FA0A /* LoginViewController.xib in Resources */,
+				8FBFBDA42C5E058A0042FA0A /* 商品主图5.jpg in Resources */,
+				8FBFBE442C5E058A0042FA0A /* 详情页33-5.jpg in Resources */,
+				8FBFBE4C2C5E058A0042FA0A /* 详情页34-3.jpg in Resources */,
+				8FBFBDBE2C5E058A0042FA0A /* 详情页22-1.jpg in Resources */,
+				8FBFBE682C5E058A0042FA0A /* 详情页36-10.jpg in Resources */,
+				8FBFBE1D2C5E058A0042FA0A /* 详情页30-4.jpg in Resources */,
+				8FBFBDD92C5E058A0042FA0A /* 详情页24-6.jpg in Resources */,
+				8FBFBDA02C5E058A0042FA0A /* 详情页4-7.jpg in Resources */,
+				8FBFBDCF2C5E058A0042FA0A /* 详情页23-2.jpg in Resources */,
+				8FBFBD9D2C5E058A0042FA0A /* 详情页4-4.jpg in Resources */,
+				8FBFBE772C5E058A0042FA0A /* 详情页38-3.jpg in Resources */,
+				8FBFBE252C5E058A0042FA0A /* 详情页30-12.jpg in Resources */,
+				8FBFBDA92C5E058A0042FA0A /* 商品主图10.jpg in Resources */,
+				8FBFBE8B2C5E058A0042FA0A /* 详情页40-3.jpg in Resources */,
+				8FBFBDC12C5E058A0042FA0A /* 详情页22-4.jpg in Resources */,
+				8FBFBD9C2C5E058A0042FA0A /* 详情页4-3.jpg in Resources */,
+				8FBFBDDE2C5E058A0042FA0A /* 商品主图25.jpg in Resources */,
+				8FBFBDCB2C5E058A0042FA0A /* 详情页22-14.jpg in Resources */,
+				8FBFBE672C5E058A0042FA0A /* 详情页36-9.jpg in Resources */,
+				8FBFBE702C5E058A0042FA0A /* 详情页37-7.jpg in Resources */,
+				8FBFBE852C5E058A0042FA0A /* 详情页39-5.jpg in Resources */,
+				8FBFBDBD2C5E058A0042FA0A /* 商品主图22.jpg in Resources */,
+				8FBFBE5D2C5E058A0042FA0A /* 详情页35-10.jpg in Resources */,
+				8FBFBDD72C5E058A0042FA0A /* 详情页24-4.jpg in Resources */,
+				8FBFBE172C5E058A0042FA0A /* 详情页29-12.jpg in Resources */,
+				8FBFBE462C5E058A0042FA0A /* 详情页33-7.jpg in Resources */,
+				8FBFBDDD2C5E058A0042FA0A /* 详情页24-10.jpg in Resources */,
+				8FBFBE732C5E058A0042FA0A /* 详情页37-10.jpg in Resources */,
+				8FBFBE7C2C5E058A0042FA0A /* 详情页38-8.jpg in Resources */,
+				8FBFBE5B2C5E058A0042FA0A /* 详情页35-8.jpg in Resources */,
+				8FBFBE142C5E058A0042FA0A /* 详情页29-9.jpg in Resources */,
+				8FBFBE022C5E058A0042FA0A /* 商品主图28.jpg in Resources */,
+				8FBFBE2C2C5E058A0042FA0A /* 详情页31-6.jpg in Resources */,
+				8FBFBDBC2C5E058A0042FA0A /* 详情页21-8.jpg in Resources */,
+				8FBFBDC82C5E058A0042FA0A /* 详情页22-11.jpg in Resources */,
+				8FBFBDE82C5E058A0042FA0A /* 详情页25-10.jpg in Resources */,
+				8FBFBE632C5E058A0042FA0A /* 详情页36-5.jpg in Resources */,
+				8FBFBE3B2C5E058A0042FA0A /* 详情页32-8.jpg in Resources */,
+				8FBFBE7E2C5E058A0042FA0A /* 详情页38-10.jpg in Resources */,
+				8FBFBDE42C5E058A0042FA0A /* 详情页25-6.jpg in Resources */,
+				8FBFBD9E2C5E058A0042FA0A /* 详情页4-5.jpg in Resources */,
+				8FBFBE912C5E058A0042FA0A /* 详情页40-9.jpg in Resources */,
+				8FBFBDED2C5E058A0042FA0A /* 详情页26-4.jpg in Resources */,
+				8FBFBE272C5E058A0042FA0A /* 详情页31-1.jpg in Resources */,
+				8FBFBD9B2C5E058A0042FA0A /* 详情页4-2.jpg in Resources */,
+				8FBFBDB52C5E058A0042FA0A /* 详情页21-1.jpg in Resources */,
+				8FBFBE372C5E058A0042FA0A /* 详情页32-4.jpg in Resources */,
+				8FBFBE822C5E058A0042FA0A /* 详情页39-2.jpg in Resources */,
+				8FBFBE7B2C5E058A0042FA0A /* 详情页38-7.jpg in Resources */,
+				8FBFBE842C5E058A0042FA0A /* 详情页39-4.jpg in Resources */,
+				8FBFBE592C5E058A0042FA0A /* 详情页35-6.jpg in Resources */,
+				8FBFBE072C5E058A0042FA0A /* 详情页28-5.jpg in Resources */,
+				8FBFBE5A2C5E058A0042FA0A /* 详情页35-7.jpg in Resources */,
+				8FBFBDAA2C5E058A0042FA0A /* 商品主图11.jpg in Resources */,
+				8FBFBDEA2C5E058A0042FA0A /* 详情页26-1.jpg in Resources */,
+				8FBFBE212C5E058A0042FA0A /* 详情页30-8.jpg in Resources */,
+				8FBFB9F32C5DF0990042FA0A /* rent.txt in Resources */,
+				8FBFBE2F2C5E058A0042FA0A /* 详情页31-9.jpg in Resources */,
+				8FBFBDA82C5E058A0042FA0A /* 商品主图9.jpg in Resources */,
+				8FBFBE5F2C5E058A0042FA0A /* 详情页36-1.jpg in Resources */,
+				8FBFBDCE2C5E058A0042FA0A /* 详情页23-1.jpg in Resources */,
+				8FBFBE662C5E058A0042FA0A /* 详情页36-8.jpg in Resources */,
+				8FBFBDF52C5E058A0042FA0A /* 商品主图27.jpg in Resources */,
+				8FBFBE4F2C5E058A0042FA0A /* 详情页34-6.jpg in Resources */,
+				8FBFBE0C2C5E058A0042FA0A /* 详情页29-1.jpg in Resources */,
+				8FBFBE7F2C5E058A0042FA0A /* 详情页38-11.jpg in Resources */,
+				8FBFBDEC2C5E058A0042FA0A /* 详情页26-3.jpg in Resources */,
+				8FBFBE062C5E058A0042FA0A /* 详情页28-4.jpg in Resources */,
+				8FBFBDF22C5E058A0042FA0A /* 详情页26-9.jpg in Resources */,
+				8FBFBE2D2C5E058A0042FA0A /* 详情页31-7.jpg in Resources */,
+				8FBFBE222C5E058A0042FA0A /* 详情页30-9.jpg in Resources */,
+				8FBFBE3E2C5E058A0042FA0A /* 详情页132-0.jpg in Resources */,
+				8FBFBE122C5E058A0042FA0A /* 详情页29-7.jpg in Resources */,
+				8FBFBDF12C5E058A0042FA0A /* 详情页26-8.jpg in Resources */,
+				8FBFBE902C5E058A0042FA0A /* 详情页40-8.jpg in Resources */,
+				8FBFBE2A2C5E058A0042FA0A /* 详情页31-4.jpg in Resources */,
+				8FBFBDB92C5E058A0042FA0A /* 详情页21-5.jpg in Resources */,
+				8FBFBDA22C5E058A0042FA0A /* 详情页4-9.jpg in Resources */,
+				8FBFBDE62C5E058A0042FA0A /* 详情页25-8.jpg in Resources */,
+				8FBFBDBA2C5E058A0042FA0A /* 详情页21-6.jpg in Resources */,
+				8FBFBDFB2C5E058A0042FA0A /* 详情页27-6.jpg in Resources */,
+				8FBFBE782C5E058A0042FA0A /* 详情页38-4.jpg in Resources */,
+				8FBFBDAF2C5E058A0042FA0A /* 商品主图16.jpg in Resources */,
+				8FBFBDA32C5E058A0042FA0A /* 详情页4-10.jpg in Resources */,
+				8FBFBE692C5E058A0042FA0A /* 商品主图37.jpg in Resources */,
+				8FBFBDAE2C5E058A0042FA0A /* 商品主图15.jpg in Resources */,
+				8FBFBDD02C5E058A0042FA0A /* 详情页23-3.jpg in Resources */,
+				8FBFBE6E2C5E058A0042FA0A /* 详情页37-5.jpg in Resources */,
+				8FBFBE8C2C5E058A0042FA0A /* 详情页40-4.jpg in Resources */,
+				8FBFBE1E2C5E058A0042FA0A /* 详情页30-5.jpg in Resources */,
+				8FBFBE432C5E058A0042FA0A /* 详情页33-4.jpg in Resources */,
+				8FBFBDCA2C5E058A0042FA0A /* 详情页22-13.jpg in Resources */,
+				8FBFBDAB2C5E058A0042FA0A /* 商品主图 12.jpg in Resources */,
+				8FBFBE572C5E058A0042FA0A /* 详情页35-4.jpg in Resources */,
+				8FBFBDFD2C5E058A0042FA0A /* 详情页27-8.jpg in Resources */,
+				8FBFBE832C5E058A0042FA0A /* 详情页39-3.jpg in Resources */,
+				8FBFBDBB2C5E058A0042FA0A /* 详情页21-7.jpg in Resources */,
+				8FBFBE0B2C5E058A0042FA0A /* 商品主图29.jpg in Resources */,
+				8FBFBE332C5E058A0042FA0A /* 商品主图32.jpg in Resources */,
+				8FBFBDB32C5E058A0042FA0A /* 商品主图20.jpg in Resources */,
+				8FBFBE302C5E058A0042FA0A /* 详情页31-10.jpg in Resources */,
+				8FBFBDFA2C5E058A0042FA0A /* 详情页27-5.jpg in Resources */,
+				8FBFBDB82C5E058A0042FA0A /* 详情页21-4.jpg in Resources */,
+				8FBFBE092C5E058A0042FA0A /* 详情页28-7.jpg in Resources */,
+				8FBFBE552C5E058A0042FA0A /* 详情页35-2.jpg in Resources */,
+				8FBFBE642C5E058A0042FA0A /* 详情页36-6.jpg in Resources */,
+				8FBFBDE72C5E058A0042FA0A /* 详情页25-9.jpg in Resources */,
+				8FBFBE012C5E058A0042FA0A /* 详情页27-12.jpg in Resources */,
+				8FBFBE862C5E058A0042FA0A /* 详情页39-6.jpg in Resources */,
+				8FBFBDEE2C5E058A0042FA0A /* 详情页26-5.jpg in Resources */,
+				8FBFBDC42C5E058A0042FA0A /* 详情页22-7.jpg in Resources */,
+				8FBFBE4B2C5E058A0042FA0A /* 详情页34-2.jpg in Resources */,
+				8FBFBDF62C5E058A0042FA0A /* 详情页27-1.jpg in Resources */,
 				8F7BC74A2C5A3A8C00237A52 /* Assets.xcassets in Resources */,
+				8FBFBDC02C5E058A0042FA0A /* 详情页22-3.jpg in Resources */,
+				8FBFBDD82C5E058A0042FA0A /* 详情页24-5.jpg in Resources */,
+				8FBFBE1C2C5E058A0042FA0A /* 详情页30-3.jpg in Resources */,
+				8FBFBE282C5E058A0042FA0A /* 详情页31-2.jpg in Resources */,
+				8FBFBE762C5E058A0042FA0A /* 详情页38-2.jpg in Resources */,
+				8FBFBD982C5E058A0042FA0A /* 商品主图3.jpg in Resources */,
+				8FBFBE882C5E058A0042FA0A /* 商品主图40.jpg in Resources */,
+				8FBFBE922C5E058A0042FA0A /* 详情页40-10.jpg in Resources */,
+				8FBFBE6D2C5E058A0042FA0A /* 详情页37-4.jpg in Resources */,
+				8FBFBE482C5E058A0042FA0A /* 详情页33-9.jpg in Resources */,
+				8FBFBE3C2C5E058A0042FA0A /* 详情页32-9.jpg in Resources */,
+				8FBFBE342C5E058A0042FA0A /* 详情页32-1.jpg in Resources */,
+				8FBFBDB12C5E058A0042FA0A /* 商品主图18.jpg in Resources */,
+				8FBFBE002C5E058A0042FA0A /* 详情页27-11.jpg in Resources */,
+				8FBFBE0D2C5E058A0042FA0A /* 详情页29-2.jpg in Resources */,
+				8FBFBE0A2C5E058A0042FA0A /* 详情页28-8.jpg in Resources */,
+				8FBFBDF92C5E058A0042FA0A /* 详情页27-4.jpg in Resources */,
+				8FBFBDE02C5E058A0042FA0A /* 详情页25-2.jpg in Resources */,
+				8FBFBDA62C5E058A0042FA0A /* 商品主图7.jpg in Resources */,
+				8FBFBE0F2C5E058A0042FA0A /* 详情页29-4.jpg in Resources */,
+				8FBFBDC62C5E058A0042FA0A /* 详情页22-9.jpg in Resources */,
+				8FBFBE132C5E058A0042FA0A /* 详情页29-8.jpg in Resources */,
+				8FBFBDF72C5E058A0042FA0A /* 详情页27-2.jpg in Resources */,
+				8FBFBE612C5E058A0042FA0A /* 详情页36-3.jpg in Resources */,
+				8FBFBE812C5E058A0042FA0A /* 详情页39-1.jpg in Resources */,
+				8FBFBDDA2C5E058A0042FA0A /* 详情页24-7.jpg in Resources */,
+				8FBFBDE22C5E058A0042FA0A /* 详情页25-4.jpg in Resources */,
+				8FBFBE412C5E058A0042FA0A /* 详情页33-2.jpg in Resources */,
+				8FBFBE532C5E058A0042FA0A /* 商品主图35.jpg in Resources */,
+				8FBFBE322C5E058A0042FA0A /* 详情页31-12.jpg in Resources */,
+				8FBFBDEB2C5E058A0042FA0A /* 详情页26-2.jpg in Resources */,
+				8FBFBE722C5E058A0042FA0A /* 详情页37-9.jpg in Resources */,
+				8FBFBDD12C5E058A0042FA0A /* 详情页23-4.jpg in Resources */,
+				8FBFBE1B2C5E058A0042FA0A /* 详情页30-2.jpg in Resources */,
+				8FBFBDDC2C5E058A0042FA0A /* 详情页24-9.jpg in Resources */,
+				8FBFBE112C5E058A0042FA0A /* 详情页29-6.jpg in Resources */,
+				8FBFBDD42C5E058A0042FA0A /* 详情页24-1.jpg in Resources */,
+				8FBFBE422C5E058A0042FA0A /* 详情页33-3.jpg in Resources */,
+				8FBFBDE52C5E058A0042FA0A /* 详情页25-7.jpg in Resources */,
+				8FBFBE262C5E058A0042FA0A /* 商品主图31.jpg in Resources */,
+				8FBFBDA12C5E058A0042FA0A /* 详情页4-8.jpg in Resources */,
+				8FBFBE6F2C5E058A0042FA0A /* 详情页37-6.jpg in Resources */,
+				8FBFBE082C5E058A0042FA0A /* 详情页28-6.jpg in Resources */,
+				8FBFBE602C5E058A0042FA0A /* 详情页36-2.jpg in Resources */,
+				8FBFBD962C5E058A0042FA0A /* 商品主图1.jpg in Resources */,
+				8FBFBE292C5E058A0042FA0A /* 详情页31-3.jpg in Resources */,
+				8FBFBDDF2C5E058A0042FA0A /* 详情页25-1.jpg in Resources */,
+				8FBFBDB62C5E058A0042FA0A /* 详情页21-2.jpg in Resources */,
+				8FBFBD9A2C5E058A0042FA0A /* 详情页4-1.jpg in Resources */,
+				8FBFBDFF2C5E058A0042FA0A /* 详情页27-10.jpg in Resources */,
+				8FBFBE312C5E058A0042FA0A /* 详情页31-11.jpg in Resources */,
+				8FBFBE2E2C5E058A0042FA0A /* 详情页31-8.jpg in Resources */,
+				8FBFBE6C2C5E058A0042FA0A /* 详情页37-3.jpg in Resources */,
+				8FBFBDC32C5E058A0042FA0A /* 详情页22-6.jpg in Resources */,
+				8FBFBDB72C5E058A0042FA0A /* 详情页21-3.jpg in Resources */,
+				8FBFBE242C5E058A0042FA0A /* 详情页30-11.jpg in Resources */,
+				8FBFBE472C5E058A0042FA0A /* 详情页33-8.jpg in Resources */,
+				8FBFBDF32C5E058A0042FA0A /* 详情页26-10.jpg in Resources */,
+				8FBFBE7A2C5E058A0042FA0A /* 详情页38-6.jpg in Resources */,
+				8FBFBDD22C5E058A0042FA0A /* 详情页23-5.jpg in Resources */,
+				8FBFBE102C5E058A0042FA0A /* 详情页29-5.jpg in Resources */,
+				8FBFBDC72C5E058A0042FA0A /* 详情页22-10.jpg in Resources */,
+				8FBFBE162C5E058A0042FA0A /* 详情页29-11.jpg in Resources */,
+				8FBFBE1A2C5E058A0042FA0A /* 详情页30-1.jpg in Resources */,
+				8FBFBE892C5E058A0042FA0A /* 详情页40-1.jpg in Resources */,
+				8FBFBE402C5E058A0042FA0A /* 详情页33-1.jpg in Resources */,
+				8FBFBE182C5E058A0042FA0A /* 详情页29-13.jpg in Resources */,
+				8FBFBDAD2C5E058A0042FA0A /* 商品主图14.jpg in Resources */,
+				8FBFBDF42C5E058A0042FA0A /* 详情页26-11.jpg in Resources */,
+				8FBFBE0E2C5E058A0042FA0A /* 详情页29-3.jpg in Resources */,
+				8FBFBE562C5E058A0042FA0A /* 详情页35-3.jpg in Resources */,
+				8FBFBD9F2C5E058A0042FA0A /* 详情页4-6.jpg in Resources */,
+				8FBFBE5C2C5E058A0042FA0A /* 详情页35-9.jpg in Resources */,
+				8FBFBDC22C5E058A0042FA0A /* 详情页22-5.jpg in Resources */,
+				8FBFBE052C5E058A0042FA0A /* 详情页28-3.jpg in Resources */,
+				8FBFBDA72C5E058A0042FA0A /* 商品主图8.jpg in Resources */,
+				8FBFBE932C5E058A0042FA0A /* 详情页40-11.jpg in Resources */,
+				8FBFBDBF2C5E058A0042FA0A /* 详情页22-2.jpg in Resources */,
+				8FBFBE502C5E058A0042FA0A /* 详情页34-7.jpg in Resources */,
+				8FBFBE7D2C5E058A0042FA0A /* 详情页38-9.jpg in Resources */,
+				8FBFBE8A2C5E058A0042FA0A /* 详情页40-2.jpg in Resources */,
 				8F7BC74D2C5A3A8C00237A52 /* Base in Resources */,
+				8FBFBDF82C5E058A0042FA0A /* 详情页27-3.jpg in Resources */,
+				8FBFBE512C5E058A0042FA0A /* 详情页34-8.jpg in Resources */,
+				8FBFBE152C5E058A0042FA0A /* 详情页29-10.jpg in Resources */,
+				8FBFBDC52C5E058A0042FA0A /* 详情页22-8.jpg in Resources */,
+				8FBFBE202C5E058A0042FA0A /* 详情页30-7.jpg in Resources */,
+				8FBFBE1F2C5E058A0042FA0A /* 详情页30-6.jpg in Resources */,
+				8FBFBE452C5E058A0042FA0A /* 详情页33-6.jpg in Resources */,
+				8FBFBE352C5E058A0042FA0A /* 详情页32-2.jpg in Resources */,
+				8FBFBE8D2C5E058A0042FA0A /* 详情页40-5.jpg in Resources */,
+				8FBFBDDB2C5E058A0042FA0A /* 详情页24-8.jpg in Resources */,
+				8FBFBE582C5E058A0042FA0A /* 详情页35-5.jpg in Resources */,
+				8FBFBDE12C5E058A0042FA0A /* 详情页25-3.jpg in Resources */,
+				8FBFBE712C5E058A0042FA0A /* 详情页37-8.jpg in Resources */,
+				8FBFBE522C5E058A0042FA0A /* 详情页34-9.jpg in Resources */,
+				8FBFBE872C5E058A0042FA0A /* 详情页39-7.jpg in Resources */,
+				8FBFBDB42C5E058A0042FA0A /* 商品主图21.jpg in Resources */,
+				8FBFBE542C5E058A0042FA0A /* 详情页35-1.jpg in Resources */,
+				8FBFBDFC2C5E058A0042FA0A /* 详情页27-7.jpg in Resources */,
+				8FBFBD992C5E058A0042FA0A /* 商品主图4.jpg in Resources */,
+				8FBFBE742C5E058A0042FA0A /* 商品主图38.jpg in Resources */,
+				8FBFBE392C5E058A0042FA0A /* 详情页32-6.jpg in Resources */,
+				8FBFBE2B2C5E058A0042FA0A /* 详情页31-5.jpg in Resources */,
+				8FBFBE652C5E058A0042FA0A /* 详情页36-7.jpg in Resources */,
+				8FBFBE4E2C5E058A0042FA0A /* 详情页34-5.jpg in Resources */,
+				8FBFBD972C5E058A0042FA0A /* 商品主图2.jpg in Resources */,
+				8FBFBE6A2C5E058A0042FA0A /* 详情页37-1.jpg in Resources */,
+				8FBFBDCC2C5E058A0042FA0A /* 详情页22-15.jpg in Resources */,
+				8FBFBE362C5E058A0042FA0A /* 详情页32-3.jpg in Resources */,
+				8FBFBE8E2C5E058A0042FA0A /* 详情页40-6.jpg in Resources */,
+				8FBFBE3D2C5E058A0042FA0A /* 详情页32-11.jpg in Resources */,
+				8FBFBDD62C5E058A0042FA0A /* 详情页24-3.jpg in Resources */,
+				8FBFBDE92C5E058A0042FA0A /* 商品主图26.jpg in Resources */,
+				8FBFBDD52C5E058A0042FA0A /* 详情页24-2.jpg in Resources */,
 				8F7BC7482C5A3A8A00237A52 /* Base in Resources */,
+				8FBFBE752C5E058A0042FA0A /* 详情页38-1.jpg in Resources */,
+				8FBFBDCD2C5E058A0042FA0A /* 商品主图23.jpg in Resources */,
+				8FBFBE192C5E058A0042FA0A /* 商品主图30.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +1972,8 @@
 				8FBFB7772C5D452C0042FA0A /* RegistViewController.m in Sources */,
 				8FBFB6E72C5A5F1D0042FA0A /* MeViewController.m in Sources */,
 				8FBFB7152C5C001A0042FA0A /* HotItemCell.m in Sources */,
+				8FBFB77B2C5DD88C0042FA0A /* DetailViewController.m in Sources */,
+				8FBFB9F62C5DF3480042FA0A /* DataManager.m in Sources */,
 				8FBFB7112C5BFF210042FA0A /* HomeCustomizeItemCell.m in Sources */,
 				8FBFB71C2C5CDF0B0042FA0A /* CartToolBar.m in Sources */,
 				8FBFB6FD2C5BC34C0042FA0A /* HomeCustomizeCell.m in Sources */,

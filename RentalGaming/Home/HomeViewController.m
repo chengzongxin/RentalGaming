@@ -9,6 +9,8 @@
 #import "HomeCustomizeCell.h"
 #import "HomeRecommendCell.h"
 #import "LoginViewController.h"
+#import "DetailViewController.h"
+#import "DataManager.h"
 
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -20,6 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [DataManager.sharedInstance loadTxtFile];
     
     self.navigationController.navigationBar.hidden = YES;
     self.view.backgroundColor = UIColorHexString(@"#FFFDEB");
@@ -135,7 +139,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    LoginViewController *vc = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+    DetailViewController *vc = [[DetailViewController alloc] init];
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];
 }
