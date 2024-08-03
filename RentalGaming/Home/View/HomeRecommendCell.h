@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HomeRecommendCell : UITableViewCell
 
+@property (nonatomic, strong) GoodModel *model;
+
 @end
 
 NS_ASSUME_NONNULL_END

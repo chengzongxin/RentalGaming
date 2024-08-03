@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HotItemViewController : UIViewController
 
+@property (nonatomic, strong) NSArray <GoodModel *> *models;
+
 @end
 
 NS_ASSUME_NONNULL_END

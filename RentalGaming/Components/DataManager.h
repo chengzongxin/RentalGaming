@@ -9,6 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef enum : NSUInteger {
+    GoodType_BlindBox,
+    GoodType_Doll,
+} GoodType;
+
+
 @interface GoodModel : NSObject
 
 @property (nonatomic, strong) NSString *name;
@@ -16,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) int price;
 @property (nonatomic, strong) UIImage *mainImg;
 @property (nonatomic, strong) NSArray <UIImage *> *detailImgs;
+@property (nonatomic, assign) GoodType type; // 1 盲盒， 2 娃娃
 @end
 
 
@@ -26,6 +33,10 @@ SHARED_INSTANCE_FOR_HEADER
 - (void)loadTxtFile;
 
 @property (nonatomic, strong) NSArray <GoodModel *> *goods;
+@property (nonatomic, strong) NSArray <GoodModel *> *blinds;
+@property (nonatomic, strong) NSArray <GoodModel *> *blinds10;
+@property (nonatomic, strong) NSArray <GoodModel *> *dolls;
+@property (nonatomic, strong) NSArray <GoodModel *> *dolls10;
 
 @end
 

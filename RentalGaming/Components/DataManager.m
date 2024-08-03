@@ -49,9 +49,30 @@ SHARED_INSTANCE_FOR_CLASS
         NSArray *threeArr = [self chunkArray:filteredLines intoSize:3];
 
         NSMutableArray *models = [NSMutableArray array];
+        NSMutableArray *blinds10 = [NSMutableArray array];
+        NSMutableArray *blinds = [NSMutableArray array];
+        NSMutableArray *dolls10 = [NSMutableArray array];
+        NSMutableArray *dolls = [NSMutableArray array];
         for (int i = 0; i < threeArr.count; i++) {
             NSArray *oneM = threeArr[i];
             GoodModel *model = [GoodModel new];
+            if (i < 10 || (i >= 20 && i < 30)) {
+                model.type = GoodType_BlindBox;
+            } else {
+                model.type = GoodType_Doll;
+            }
+            
+            if (i < 10) {
+                [blinds10 tmui_safeAddObject:model];
+            } else if (i < 20) {
+                [dolls10 tmui_safeAddObject:model];
+            } else if (i < 30) {
+                [blinds tmui_safeAddObject:model];
+            } else if (i < 40) {
+                [dolls tmui_safeAddObject:model];
+            }
+            
+            
             model.name = oneM[0];
             model.price = [[self extractNumberFromString:oneM[1]] intValue];
             int idx = [[self extractNumberFromString:oneM[2]] intValue];
@@ -82,6 +103,10 @@ SHARED_INSTANCE_FOR_CLASS
         }
         
         self.goods = models;
+        self.blinds10 = blinds10;
+        self.dolls10 = dolls10;
+        self.blinds = blinds;
+        self.dolls = dolls;
     }
 }
 

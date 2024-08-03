@@ -38,15 +38,16 @@
 
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return 10;
+    return 1;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 10;
+    return self.models.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     HotItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass(HotItemCell.class) forIndexPath:indexPath];
+    cell.model = self.models[indexPath.item];
     return cell;
 }
 
@@ -87,11 +88,11 @@
         _collectionView.backgroundColor = UIColorClear;
         _collectionView.dataSource = self;
         _collectionView.delegate = self;
-        _collectionView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
+        _collectionView.contentInset = UIEdgeInsetsMake(0, 0, tmui_tabbarHeight() + 60, 0);
         if (@available(iOS 11.0, *)) {
             _collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         } else {
-            self.automaticallyAdjustsScrollViewInsets = NO;
+//            self.automaticallyAdjustsScrollViewInsets = NO;
         }
         [_collectionView registerClass:UICollectionReusableView.class forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:NSStringFromClass(UICollectionReusableView.class)];
         [_collectionView registerClass:UICollectionReusableView.class forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:NSStringFromClass(UICollectionReusableView.class)];

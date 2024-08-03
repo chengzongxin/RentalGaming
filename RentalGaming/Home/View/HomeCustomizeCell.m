@@ -10,6 +10,8 @@
 
 @interface HomeCustomizeCell ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
+@property (nonatomic, strong) NSArray *dataSource;
+
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UICollectionViewFlowLayout *layout;
 
@@ -28,6 +30,11 @@
         [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self.contentView);
         }];
+        
+        NSMutableArray *datas = [NSMutableArray array];
+        [datas addObjectsFromArray:DataManager.sharedInstance.blinds10];
+        [datas addObjectsFromArray:DataManager.sharedInstance.dolls10];
+        self.dataSource = datas;
     }
     return self;
 }
@@ -45,12 +52,13 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 2;
+    return self.dataSource.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     HomeCustomizeItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass(HomeCustomizeItemCell.class) forIndexPath:indexPath];
     cell.backgroundColor = UIColor.whiteColor;
+    cell.model = self.dataSource[indexPath.item];
     return cell;
 }
 

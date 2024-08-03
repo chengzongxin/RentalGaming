@@ -27,7 +27,7 @@
         <!--热门租赁-->
         <scene sceneID="yoR-AN-bcx">
             <objects>
-                <navigationController id="ufX-nv-xr8" sceneMemberID="viewController">
+                <navigationController id="ufX-nv-xr8" customClass="NavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="热门租赁" image="tab_hot_n" selectedImage="tab_hot_s" id="Zw1-r8-ARU"/>
                     <navigationItem key="navigationItem" id="W2h-fa-19K"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WWV-D8-7L4">
@@ -67,7 +67,7 @@
         <!--商城分类-->
         <scene sceneID="i2O-58-cld">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xfv-tC-IGn" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xfv-tC-IGn" customClass="NavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="商城分类" image="tab_home_n" selectedImage="tab_home_s" id="6Kz-48-SWR"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zci-PH-CXH">
@@ -86,7 +86,7 @@
         <!--我的-->
         <scene sceneID="cnC-vY-IYK">
             <objects>
-                <navigationController id="3eI-tM-GIY" sceneMemberID="viewController">
+                <navigationController id="3eI-tM-GIY" customClass="NavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="我的" image="tab_me_n" selectedImage="tab_me_s" id="6Ld-gG-gKG"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iic-VU-28c">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -436,7 +436,7 @@
         <!--购物车-->
         <scene sceneID="l5J-dN-8d1">
             <objects>
-                <navigationController id="fnH-9d-1pX" sceneMemberID="viewController">
+                <navigationController id="fnH-9d-1pX" customClass="NavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="购物车" image="tab_cart_n" selectedImage="tab_cart_s" id="Vc2-zq-Qis"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Bhg-Bj-C1q">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>

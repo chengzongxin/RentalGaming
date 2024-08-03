@@ -7,7 +7,27 @@
 
 #import "HomeRecommendCell.h"
 
+@interface HomeRecommendCell ()
+@property (nonatomic, strong)UIImageView *imgV;
+@property (nonatomic, strong)UILabel *titleLbl;
+@property (nonatomic, strong)UILabel *priceLbl;
+@end
+
 @implementation HomeRecommendCell
+
+- (void)setModel:(GoodModel *)model {
+    _model = model;
+    
+    _imgV.image = model.mainImg;
+    
+    NSMutableAttributedString *titleStr = [[NSMutableAttributedString alloc] initWithString:model.name attributes: @{NSFontAttributeName: UIFont(14),NSForegroundColorAttributeName: [UIColor colorWithRed:69/255.0 green:69/255.0 blue:69/255.0 alpha:1]}];
+    _titleLbl.attributedText = titleStr;
+    
+    NSString *price = [NSString stringWithFormat:@"¥%d",model.price];
+    NSMutableAttributedString *priceStr = [[NSMutableAttributedString alloc] initWithString:price attributes: @{NSFontAttributeName: UIFont(12),NSForegroundColorAttributeName: [UIColor colorWithRed:255/255.0 green:57/255.0 blue:57/255.0 alpha:1]}];
+    [priceStr addAttributes:@{NSFontAttributeName: UIFontSemibold(18)} range:NSMakeRange(1, price.length - 1)];
+    _priceLbl.attributedText = priceStr;
+}
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
@@ -23,9 +43,11 @@
     containerView.backgroundColor = UIColorHexString(@"#FFFAC8");
     [self.contentView addSubview:containerView];
     
-    UIView *imgV = [[UIView alloc] init];
+    UIImageView *imgV = [[UIImageView alloc] init];
     imgV.frame = CGRectMake(24,479,100,100);
+    imgV.cornerRadius = 12;
     [containerView addSubview:imgV];
+    _imgV = imgV;
     
     UILabel *titleLbl = [[UILabel alloc] init];
     titleLbl.frame = CGRectMake(136,479,215,40);
@@ -36,6 +58,7 @@
     titleLbl.textColor = [UIColor colorWithRed:69/255.0 green:69/255.0 blue:69/255.0 alpha:1];
     titleLbl.textAlignment = NSTextAlignmentLeft;
     titleLbl.alpha = 1.0;
+    _titleLbl = titleLbl;
     
     UILabel *priceLbl = [[UILabel alloc] init];
     priceLbl.frame = CGRectMake(136,561,37,18);
@@ -47,6 +70,7 @@
     priceLbl.textColor = [UIColor colorWithRed:255/255.0 green:57/255.0 blue:57/255.0 alpha:1];
     priceLbl.textAlignment = NSTextAlignmentLeft;
     priceLbl.alpha = 1.0;
+    _priceLbl = priceLbl;
     
     UIButton *btn = [[UIButton alloc] init];
     btn.frame = CGRectMake(277,550,74,30);

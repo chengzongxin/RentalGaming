@@ -16,6 +16,8 @@
 
 @property (nonatomic, strong) UITableView *tableView;
 
+@property (nonatomic, strong) NSMutableArray<NSArray *> *recommendDatas;
+
 @end
 
 @implementation HomeViewController
@@ -24,6 +26,11 @@
     [super viewDidLoad];
     
     [DataManager.sharedInstance loadTxtFile];
+    
+    self.recommendDatas = [NSMutableArray array];
+    [self.recommendDatas addObject:@[@""]];
+    [self.recommendDatas addObject:DataManager.sharedInstance.blinds];
+    [self.recommendDatas addObject:DataManager.sharedInstance.dolls];
     
     self.navigationController.navigationBar.hidden = YES;
     self.view.backgroundColor = UIColorHexString(@"#FFFDEB");
@@ -78,11 +85,18 @@
 #pragma mark UITableViewDelegate UITableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return self.recommendDatas.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return section ? 3 : 1;;
+    return self.recommendDatas[section].count;
+//    if (section == 0) {
+//        return 1;
+//    }else if (section == 1) {
+//        return DataManager.sharedInstance.blinds.count;
+//    }else if (section == 2) {
+//        return DataManager.sharedInstance.dolls.count;
+//    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -97,7 +111,13 @@
     label.frame = CGRectMake(12,16,200,18);
     label.numberOfLines = 0;
     [self.view addSubview:label];
-    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"盲盒机推荐"attributes: @{NSFontAttributeName: UIFontSemibold(18),NSForegroundColorAttributeName: [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1]}];
+    NSString *titleStr = @"";
+    if (section == 1) {
+        titleStr = @"盲盒机推荐";
+    }else if (section == 2) {
+        titleStr = @"娃娃机推荐";
+    }
+    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:titleStr attributes: @{NSFontAttributeName: UIFontSemibold(18),NSForegroundColorAttributeName: [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1]}];
     label.attributedText = string;
     label.textColor = [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1];
     label.textAlignment = NSTextAlignmentLeft;
@@ -133,6 +153,7 @@
     } else {
         HomeRecommendCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(HomeRecommendCell.class) forIndexPath:indexPath];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.model = self.recommendDatas[indexPath.section][indexPath.row];
         return cell;
     }
     return UITableViewCell.new;
@@ -140,6 +161,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     DetailViewController *vc = [[DetailViewController alloc] init];
+    vc.model = self.recommendDatas[indexPath.section][indexPath.row];
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];
 }

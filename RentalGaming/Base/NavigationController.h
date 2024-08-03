@@ -1,5 +1,5 @@
 //
-//  DetailViewController.h
+//  NavigationController.h
 //  RentalGaming
 //
 //  Created by 程宗鑫 on 2024/8/3.
@@ -9,9 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DetailViewController : UIViewController
-
-@property (nonatomic, strong) GoodModel *model;
+@interface NavigationController : UINavigationController
 
 @end
 

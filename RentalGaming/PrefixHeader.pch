@@ -14,5 +14,6 @@
 #import <TMUIExtensions/TMUIExtensions.h>
 #import <TMUIComponents/TMUIComponents.h>
 #import <Masonry/Masonry.h>
+#import "DataManager.h"
 
 #endif /* PrefixHeader_pch */

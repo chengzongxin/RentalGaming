@@ -10,11 +10,16 @@
 @interface DetailViewController () <UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong) TMUILabel *titleLabel;
+@property (nonatomic, strong) NSMutableArray *priceLbls;
+@property (nonatomic, strong) NSMutableArray *priceCountLbls;
 
 @end
 
 @implementation DetailViewController
-
+TMUI_PropertyLazyLoad(NSMutableArray, priceLbls)
+TMUI_PropertyLazyLoad(NSMutableArray, priceCountLbls)
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -42,13 +47,15 @@
     // 创建图片视图
     UIImageView *imageView = [[UIImageView alloc] init];
     [containerView addSubview:imageView];
-
+    _imageView = imageView;
+    imageView.image = self.model.mainImg;
+    
     // 创建标题标签
     TMUILabel *titleLabel = [[TMUILabel alloc] init];
     titleLabel.frame = CGRectMake(24,357,327,40);
     titleLabel.numberOfLines = 0;
     [self.view addSubview:titleLabel];
-    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"娃娃机夹机占全透明抓娃娃机投币钓吊公仔机一体机大型商用剪刀机"attributes: @{NSFontAttributeName: UIFont(14),NSForegroundColorAttributeName: [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1]}];
+    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:self.model.name attributes: @{NSFontAttributeName: UIFont(14),NSForegroundColorAttributeName: [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1]}];
     titleLabel.attributedText = string;
     titleLabel.textColor = [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1];
     titleLabel.textAlignment = NSTextAlignmentLeft;
@@ -57,7 +64,8 @@
     titleLabel.cornerRadius = 12;
     titleLabel.contentEdgeInsets = UIEdgeInsetsMake(0, 12, 0, 12);
     [containerView addSubview:titleLabel];
-
+    _titleLabel = titleLabel;
+    
     // 创建时长标签
     UIView *rentTimeView = [[UIView alloc] init];
     rentTimeView.backgroundColor = UIColorWhite;
@@ -125,6 +133,7 @@
     
     NSMutableArray *rents = [NSMutableArray array];
     for (int i = 0; i < 3; i++) {
+        int ratio = 1;
         UIView *rentView = [[UIView alloc] init];
         
         {
@@ -132,7 +141,21 @@
             label.frame = CGRectMake(43,485,65,18);
             label.numberOfLines = 0;
             [rentView addSubview:label];
-            NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"租赁3个月"attributes: @{NSFontAttributeName: UIFont(14),NSForegroundColorAttributeName: [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1]}];
+            
+            NSString *rentDuration = @"";
+            
+            if (i == 0) {
+                rentDuration = @"租赁3个月";
+                ratio = 90;
+            } else if (i == 1) {
+                rentDuration = @"租赁6个月";
+                ratio = 180;
+            } else if (i == 2) {
+                rentDuration = @"租赁12个月";
+                ratio = 360;
+            }
+            
+            NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:rentDuration attributes: @{NSFontAttributeName: UIFont(14),NSForegroundColorAttributeName: [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1]}];
             label.attributedText = string;
             label.textColor = [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1];
             label.textAlignment = NSTextAlignmentCenter;
@@ -148,8 +171,9 @@
             label.frame = CGRectMake(47,515,54,28);
             label.numberOfLines = 0;
             [rentView addSubview:label];
-            NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"¥192"attributes: @{NSFontAttributeName: UIFont(14),NSForegroundColorAttributeName: [UIColor colorWithRed:255/255.0 green:72/255.0 blue:72/255.0 alpha:1]}];
-            [string addAttributes:@{NSFontAttributeName: UIFontSemibold(28)} range:NSMakeRange(1, 3)];
+            NSString *price = [NSString stringWithFormat:@"¥%d",self.model.price * ratio];
+            NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:price attributes: @{NSFontAttributeName: UIFont(14),NSForegroundColorAttributeName: [UIColor colorWithRed:255/255.0 green:72/255.0 blue:72/255.0 alpha:1]}];
+            [string addAttributes:@{NSFontAttributeName: UIFontSemibold(28)} range:NSMakeRange(1, price.length - 1)];
             label.attributedText = string;
             label.textColor = [UIColor colorWithRed:255/255.0 green:72/255.0 blue:72/255.0 alpha:1];
             label.textAlignment = NSTextAlignmentCenter;
@@ -158,6 +182,7 @@
                 make.left.right.mas_equalTo(0);
                 make.centerY.equalTo(rentView);
             }];
+            [self.priceLbls addObject:label];
         }
         
         {
@@ -165,8 +190,10 @@
             label.frame = CGRectMake(62,551,26,12);
             label.numberOfLines = 0;
             [rentView addSubview:label];
-            NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"¥210"attributes: @{NSFontAttributeName: UIFont(10),NSForegroundColorAttributeName: [UIColor colorWithRed:164/255.0 green:164/255.0 blue:164/255.0 alpha:1]}];
-            [string addAttributes:@{NSFontAttributeName: UIFont(12)} range:NSMakeRange(1, 3)];
+            NSString *price = [NSString stringWithFormat:@"¥%d",(self.model.price + 2) * ratio];
+            NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:price attributes: @{NSFontAttributeName: UIFont(10),NSForegroundColorAttributeName: [UIColor colorWithRed:164/255.0 green:164/255.0 blue:164/255.0 alpha:1]}];
+            [string addAttributes:@{NSFontAttributeName: UIFont(12)} range:NSMakeRange(1, price.length - 1)];
+            [string addAttributes:@{NSStrikethroughStyleAttributeName: @(NSUnderlineStyleSingle) } range:NSMakeRange(1, price.length - 1)];
             label.attributedText = string;
             label.textColor = [UIColor colorWithRed:164/255.0 green:164/255.0 blue:164/255.0 alpha:1];
             label.textAlignment = NSTextAlignmentCenter;
@@ -175,6 +202,7 @@
                 make.left.right.mas_equalTo(0);
                 make.bottom.mas_equalTo(-20);
             }];
+            [self.priceCountLbls addObject:label];
         }
         
         [rents addObject:rentView];
@@ -204,13 +232,13 @@
 #pragma mark UITableViewDelegate UITableViewDataSource
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return section == 0 ? 44 : 0;
+    return section == 0 ? 12 + 44 : 0;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, TMUI_SCREEN_WIDTH, 44)];
-    UILabel *label = [[UILabel alloc] init];
-    label.frame = CGRectMake(24,623,64,16);
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, TMUI_SCREEN_WIDTH, 12 + 44)];
+    TMUILabel *label = [[TMUILabel alloc] init];
+    label.frame = CGRectMake(12,12,TMUI_SCREEN_WIDTH,44);
     label.numberOfLines = 0;
     [view addSubview:label];
     NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"商品详情"attributes: @{NSFontAttributeName: UIFont(16),NSForegroundColorAttributeName: [UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:1]}];
@@ -218,11 +246,14 @@
     label.textColor = [UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:1];
     label.textAlignment = NSTextAlignmentLeft;
     label.alpha = 1.0;
-    [label mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(12);
-        make.right.mas_equalTo(-12);
-        make.centerY.equalTo(view);
-    }];
+    label.contentEdgeInsets = UIEdgeInsetsMake(0, 12, 0, 12);
+    [label tmui_cornerDirect:UIRectCornerTopLeft|UIRectCornerTopRight radius:12];
+    label.backgroundColor = UIColorWhite;
+//    [label mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(12);
+//        make.right.mas_equalTo(-12);
+//        make.centerY.equalTo(view);
+//    }];
     return view;
 }
 
@@ -231,11 +262,23 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return self.model.detailImgs.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(UITableViewCell.class) forIndexPath:indexPath];
+    UIImageView *imgV = [cell viewWithTag:100];
+    if (!imgV) {
+        imgV = [[UIImageView alloc] init];
+        [cell.contentView addSubview:imgV];
+        cell.backgroundColor = UIColorClear;
+        [imgV mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(12);
+            make.right.mas_equalTo(-12);
+            make.top.bottom.mas_equalTo(0);
+        }];
+    }
+    imgV.image = self.model.detailImgs[indexPath.row];
     return cell;
 }
 
@@ -244,7 +287,13 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 44;
+    UIImage *image = self.model.detailImgs[indexPath.row];
+//    h:w=
+    CGFloat h = 0;
+    if (image.size.width && image.size.height) {
+        h = image.size.height / (image.size.width * 1.0) * (TMUI_SCREEN_WIDTH - 12 * 2);
+    }
+    return h;
 }
 
 - (UITableView *)tableView {
@@ -259,6 +308,7 @@
         _tableView.estimatedSectionHeaderHeight = 0;
         _tableView.estimatedSectionFooterHeight = 0;
         _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         [_tableView registerClass:UITableViewCell.class forCellReuseIdentifier:NSStringFromClass(UITableViewCell.class)];
     }
     return _tableView;

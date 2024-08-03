@@ -30,7 +30,11 @@
 }
 
 - (NSArray<UIViewController *> *)viewControllersForChildViewControllers {
-    return @[HotItemViewController.new,HotItemViewController.new];
+    HotItemViewController *vc1 = [HotItemViewController new];
+    vc1.models = DataManager.sharedInstance.blinds;
+    HotItemViewController *vc2 = [HotItemViewController new];
+    vc2.models = DataManager.sharedInstance.dolls;
+    return @[vc1,vc2];
 }
 
 - (NSArray<NSString *> *)titlesForChildViewControllers {
