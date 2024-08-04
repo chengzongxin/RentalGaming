@@ -295,6 +295,7 @@
 		8FBFBE932C5E058A0042FA0A /* 详情页40-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFBD922C5E05890042FA0A /* 详情页40-11.jpg */; };
 		8FBFBE972C5E2BA50042FA0A /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFBE962C5E2BA50042FA0A /* NavigationController.m */; };
 		8FBFBE9B2C5E2E6C0042FA0A /* DetailItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFBE9A2C5E2E6C0042FA0A /* DetailItemCell.m */; };
+		8FBFBE9E2C5E33380042FA0A /* CartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFBE9D2C5E33380042FA0A /* CartManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -633,6 +634,8 @@
 		8FBFBE962C5E2BA50042FA0A /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		8FBFBE992C5E2E6C0042FA0A /* DetailItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailItemCell.h; sourceTree = "<group>"; };
 		8FBFBE9A2C5E2E6C0042FA0A /* DetailItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailItemCell.m; sourceTree = "<group>"; };
+		8FBFBE9C2C5E33380042FA0A /* CartManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartManager.h; sourceTree = "<group>"; };
+		8FBFBE9D2C5E33380042FA0A /* CartManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartManager.m; sourceTree = "<group>"; };
 		9684C34F95D748B02D0C8AF9 /* Pods-RentalGamingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGamingTests.release.xcconfig"; path = "Target Support Files/Pods-RentalGamingTests/Pods-RentalGamingTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC03783FAD5FC34F6CAEE9D8 /* Pods-RentalGaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGaming.release.xcconfig"; path = "Target Support Files/Pods-RentalGaming/Pods-RentalGaming.release.xcconfig"; sourceTree = "<group>"; };
 		B6403305375C022CFD1525B2 /* libPods-RentalGaming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RentalGaming.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -816,6 +819,8 @@
 			children = (
 				8FBFB9F42C5DF3480042FA0A /* DataManager.h */,
 				8FBFB9F52C5DF3480042FA0A /* DataManager.m */,
+				8FBFBE9C2C5E33380042FA0A /* CartManager.h */,
+				8FBFBE9D2C5E33380042FA0A /* CartManager.m */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -1980,6 +1985,7 @@
 				8FBFB6DC2C5A5EBE0042FA0A /* HotViewController.m in Sources */,
 				8FBFB6FA2C5BC33D0042FA0A /* HomeRecommendCell.m in Sources */,
 				8FBFB7742C5D38CA0042FA0A /* ImageHook.m in Sources */,
+				8FBFBE9E2C5E33380042FA0A /* CartManager.m in Sources */,
 				8FBFB7212C5CFA720042FA0A /* LoginViewController.m in Sources */,
 				8F7BC73F2C5A3A8A00237A52 /* AppDelegate.m in Sources */,
 				8F7BC7502C5A3A8C00237A52 /* main.m in Sources */,

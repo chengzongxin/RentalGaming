@@ -77,6 +77,7 @@
     btn.layer.backgroundColor = [UIColor colorWithRed:255/255.0 green:214/255.0 blue:1/255.0 alpha:1].CGColor;
     btn.layer.cornerRadius = 5;
     [containerView addSubview:btn];
+    btn.userInteractionEnabled = NO;
     NSMutableAttributedString *btnStr = [[NSMutableAttributedString alloc] initWithString:@"去查看"attributes: @{NSFontAttributeName: UIFontMedium(14),NSForegroundColorAttributeName: [UIColor colorWithRed:17/255.0 green:17/255.0 blue:17/255.0 alpha:1]}];
     btn.tmui_attrText = btnStr;
     
